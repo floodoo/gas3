@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gas3/homePage/kmhTextDisplay.dart';
 import 'package:gas3/homePage/speedometer.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:screen/screen.dart';
@@ -48,12 +49,7 @@ class _HomePageState extends State<HomePage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Speedometer(speedInKmh),
-              Text(
-                "$speedInKmhString km/h",
-                style: TextStyle(fontSize: 50, color: Colors.white),
-                softWrap: false,
-                overflow: TextOverflow.ellipsis,
-              ),
+              KmhTextDisplay(speedInKmh, speedInKmhString),
             ],
           ),
         ),
