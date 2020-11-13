@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:gas3/homePage/kmhTextDisplay.dart';
 import 'package:gas3/homePage/speedometer.dart';
 import 'package:geolocator/geolocator.dart';
@@ -29,9 +30,11 @@ class _HomePageState extends State<HomePage> {
 
   @override
   void initState() {
-    Screen.keepOn(true);
     super.initState();
     getVehicleSpeed();
+    SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+      statusBarColor: Colors.transparent,
+    ));
   }
 
   @override
