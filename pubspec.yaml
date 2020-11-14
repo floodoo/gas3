@@ -12,6 +12,7 @@ dependencies:
   screen: ^0.0.5
   syncfusion_flutter_gauges: ^18.3.48
   auto_size_text: ^2.1.0
+  
 
 
   cupertino_icons: ^1.0.0
@@ -23,3 +24,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  assets:
+  - assets/audio/Manuel - Gas Gas Gas.mp3
