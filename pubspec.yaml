@@ -9,9 +9,9 @@ dependencies:
   flutter:
     sdk: flutter
   geolocator: ^6.1.6
-  audioplayers: ^0.16.2
   screen: ^0.0.5
   syncfusion_flutter_gauges: ^18.3.48
+  auto_size_text: ^2.1.0
 
 
   cupertino_icons: ^1.0.0
