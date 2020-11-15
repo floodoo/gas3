@@ -1,3 +1,4 @@
+import 'package:audioplayers/audio_cache.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:gas3/homePage/kmhTextDisplay.dart';
@@ -17,6 +18,7 @@ class _HomePageState extends State<HomePage> {
   var geolocator = Geolocator();
   var locationOptions =
       LocationOptions(accuracy: LocationAccuracy.high, distanceFilter: 10);
+  static AudioCache player = AudioCache();
 
   Future<void> getVehicleSpeed() async {
     Geolocator.getPositionStream().listen((position) async {
@@ -36,6 +38,7 @@ class _HomePageState extends State<HomePage> {
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
       statusBarColor: Colors.transparent,
     ));
+    player.play("audio/gas.mp3");
   }
 
   @override
@@ -48,14 +51,15 @@ class _HomePageState extends State<HomePage> {
       ),
       body: Container(
         color: Colors.black54,
-        child: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              Speedometer(speedInKmh),
-              KmhTextDisplay(speedInKmh, speedInKmhString),
-            ],
-          ),
+        child: ListView(
+          children: [
+            Center(
+              child: Speedometer(speedInKmh),
+            ),
+            Center(
+              child: KmhTextDisplay(speedInKmh, speedInKmhString),
+            ),
+          ],
         ),
       ),
     );

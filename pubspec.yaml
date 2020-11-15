@@ -12,6 +12,7 @@ dependencies:
   screen: ^0.0.5
   syncfusion_flutter_gauges: ^18.3.48
   auto_size_text: ^2.1.0
+  audioplayers: ^0.16.2
   
 
 
@@ -26,4 +27,4 @@ flutter:
   uses-material-design: true
 
   assets:
-  - assets/audio/Manuel - Gas Gas Gas.mp3
+  - assets/audio/gas.mp3
