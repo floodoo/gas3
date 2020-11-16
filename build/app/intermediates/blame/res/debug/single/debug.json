@@ -1,13 +1,5 @@
 [
     {
-        "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/app/intermediates/res/merged/debug/layout-v16_notification_template_custom_big.xml.flat",
-        "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/res/layout-v16/notification_template_custom_big.xml"
-    },
-    {
-        "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/app/intermediates/res/merged/debug/layout_notification_action.xml.flat",
-        "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/res/layout/notification_action.xml"
-    },
-    {
         "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
         "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
     },
@@ -128,16 +120,12 @@
         "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
     },
     {
-        "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/app/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark.xml.flat",
-        "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/5ac9ad6f13ea0190a3570ea7a43d9f59/play-services-base-17.0.0/res/drawable/common_google_signin_btn_text_dark.xml"
-    },
-    {
         "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/app/intermediates/res/merged/debug/color_common_google_signin_btn_text_dark.xml.flat",
         "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/5ac9ad6f13ea0190a3570ea7a43d9f59/play-services-base-17.0.0/res/color/common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/app/intermediates/res/merged/debug/layout_notification_template_icon_group.xml.flat",
-        "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/res/layout/notification_template_icon_group.xml"
+        "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/app/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark.xml.flat",
+        "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/5ac9ad6f13ea0190a3570ea7a43d9f59/play-services-base-17.0.0/res/drawable/common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
@@ -218,10 +206,6 @@
     {
         "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
         "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
-    },
-    {
-        "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/app/intermediates/res/merged/debug/layout_notification_action_tombstone.xml.flat",
-        "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/res/layout/notification_action_tombstone.xml"
     },
     {
         "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/app/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_disabled.xml.flat",

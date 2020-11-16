@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 class KmhTextDisplay extends StatefulWidget {
   final double speedInKmh;
   final String speedInKmhString;
-  
 
   const KmhTextDisplay(this.speedInKmh, this.speedInKmhString);
 
@@ -71,18 +70,15 @@ class _KmhTextDisplayState extends State<KmhTextDisplay> {
     }
   }
 
-  
-
   @override
   Widget build(BuildContext context) {
     var speedInKmhString = widget.speedInKmhString;
     var speedInKmh = widget.speedInKmh;
-    return Expanded(
-      child: AutoSizeText(
-        speedInKmh == null ? "0" : "$speedInKmhString",
-        style: TextStyle(fontSize: textSize(speedInKmh), color: Colors.white),
-        maxLines: 1,
-      ),
+
+    return AutoSizeText(
+      speedInKmh == null ? "0" : "$speedInKmhString",
+      style: TextStyle(fontSize: textSize(speedInKmh), color: Colors.white),
+      maxLines: 1,
     );
   }
 }

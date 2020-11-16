@@ -105,14 +105,20 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
 
     switch (state) {
       case AppLifecycleState.resumed:
-        player.resume();
-        break;
+        if (player != null) {
+          player.resume();
+          
+        } break;
       case AppLifecycleState.inactive:
-        player.pause();
-        break;
+        if (player != null) {
+          player.pause();
+          
+        } break;
       case AppLifecycleState.paused:
-        player.pause();
-        break;
+        if (player != null) {
+          player.pause();
+          
+        } break;
       case AppLifecycleState.detached:
         break;
     }
