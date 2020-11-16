@@ -38,7 +38,7 @@ class _HomePageState extends State<HomePage> {
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
       statusBarColor: Colors.transparent,
     ));
-    player.play("audio/gas.mp3");
+    player.loop("audio/gas.mp3");
   }
 
   @override
