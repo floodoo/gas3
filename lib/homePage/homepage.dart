@@ -28,8 +28,52 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
       setState(() {
         speedInKmh = speedInMps * 3.6;
         speedInKmhString = speedInKmh.toStringAsFixed(0);
+        player.setPlaybackRate(playbackRate: audioSpeed(speedInKmh));
+        if (speedInKmh == 0) {
+          player.pause();
+        } else {
+          player.resume();
+        }
       });
     });
+  }
+
+  audioSpeed(speedInKmh) {
+    if (speedInKmh == null) {
+      return 0.5;
+    } else if (speedInKmh <= 5) {
+      return 0.5;
+    } else if (speedInKmh <= 10) {
+      return 0.6;
+    } else if (speedInKmh <= 30) {
+      return 0.7;
+    } else if (speedInKmh <= 50) {
+      return 0.8;
+    } else if (speedInKmh <= 70) {
+      return 0.9;
+    } else if (speedInKmh <= 100) {
+      return 1.0;
+    } else if (speedInKmh <= 110) {
+      return 1.1;
+    } else if (speedInKmh <= 120) {
+      return 1.2;
+    } else if (speedInKmh <= 130) {
+      return 1.3;
+    } else if (speedInKmh <= 140) {
+      return 1.4;
+    } else if (speedInKmh <= 150) {
+      return 1.5;
+    } else if (speedInKmh <= 160) {
+      return 1.6;
+    } else if (speedInKmh <= 170) {
+      return 1.7;
+    } else if (speedInKmh <= 180) {
+      return 1.8;
+    } else if (speedInKmh <= 190) {
+      return 1.9;
+    } else if (speedInKmh >= 191) {
+      return 2.0;
+    }
   }
 
   @override

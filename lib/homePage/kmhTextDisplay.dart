@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 class KmhTextDisplay extends StatefulWidget {
   final double speedInKmh;
   final String speedInKmhString;
+  
 
   const KmhTextDisplay(this.speedInKmh, this.speedInKmhString);
 
@@ -69,6 +70,8 @@ class _KmhTextDisplayState extends State<KmhTextDisplay> {
       return 320.0;
     }
   }
+
+  
 
   @override
   Widget build(BuildContext context) {
