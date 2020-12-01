@@ -3,8 +3,11 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:gas3/homePage/kmhTextDisplay.dart';
+import 'package:gas3/homePage/kmhTextShaker.dart';
 import 'package:gas3/homePage/speedometer.dart';
+import 'package:gas3/homePage/speedometerShaker.dart';
 import 'package:geolocator/geolocator.dart';
+import 'package:logger/logger.dart';
 import 'package:screen/screen.dart';
 
 class HomePage extends StatefulWidget {
@@ -13,6 +16,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
+  bool shake;
   double speedInMps;
   double speedInKmh;
   String speedInKmhString;
@@ -21,6 +25,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
       LocationOptions(accuracy: LocationAccuracy.high, distanceFilter: 10);
   static AudioCache cache = AudioCache();
   AudioPlayer player;
+  final log = Logger();
 
   Future<void> getVehicleSpeed() async {
     Geolocator.getPositionStream().listen((position) async {
@@ -29,10 +34,11 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
         speedInKmh = speedInMps * 3.6;
         speedInKmhString = speedInKmh.toStringAsFixed(0);
         player.setPlaybackRate(playbackRate: audioSpeed(speedInKmh));
-        if (speedInKmh == 0) {
-          player.pause();
+        speedInKmh = 150;
+        if (speedInKmh >= 140) {
+          shake = true;
         } else {
-          player.resume();
+          shake = false;
         }
       });
     });
@@ -85,11 +91,14 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
       statusBarColor: Colors.transparent,
     ));
+    AudioPlayer.logEnabled = false;
     play();
+    shake = false;
   }
 
   void play() async {
     player = await cache.loop("audio/gas.mp3");
+    log.i("Audio wird abgespielt");
   }
 
   @override
@@ -107,18 +116,21 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
       case AppLifecycleState.resumed:
         if (player != null) {
           player.resume();
-          
-        } break;
+          log.i("Audio wird fortgesetzt");
+        }
+        break;
       case AppLifecycleState.inactive:
         if (player != null) {
           player.pause();
-          
-        } break;
+          log.i("Audio wird angehalten");
+        }
+        break;
       case AppLifecycleState.paused:
         if (player != null) {
           player.pause();
-          
-        } break;
+          log.i("Audio wird angehalten");
+        }
+        break;
       case AppLifecycleState.detached:
         break;
     }
@@ -135,12 +147,19 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
         color: Colors.black54,
         child: ListView(
           children: [
-            Center(
-              child: Speedometer(speedInKmh),
+            Padding(
+              padding: EdgeInsets.only(top: 25, left: 25, right: 25),
+              child: FittedBox(
+                fit: BoxFit.scaleDown,
+                child: shake
+                    ? SpeedometerShaker(speedInKmh)
+                    : Speedometer(speedInKmh),
+              ),
             ),
             Center(
-              child: KmhTextDisplay(speedInKmh, speedInKmhString),
-            ),
+                child: shake
+                    ? KmhTextShaker(speedInKmh, speedInKmhString)
+                    : KmhTextDisplay(speedInKmh, speedInKmhString))
           ],
         ),
       ),

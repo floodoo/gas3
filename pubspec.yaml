@@ -13,14 +13,19 @@ dependencies:
   syncfusion_flutter_gauges: ^18.3.48
   auto_size_text: ^2.1.0
   audioplayers: ^0.16.2
+  logger: ^0.9.4
   
-
-
   cupertino_icons: ^1.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: ^0.8.1
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/images/speedIcon.png"
 
 
 flutter:
@@ -28,3 +33,4 @@ flutter:
 
   assets:
   - assets/audio/gas.mp3
+  - assets/images/speedIcon.png

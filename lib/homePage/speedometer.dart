@@ -16,7 +16,7 @@ class _SpeedometerState extends State<Speedometer> {
       RadialAxis(
           minimum: 0,
           maximum: 260,
-          labelOffset: 30,
+          labelOffset: 20,
           axisLineStyle: AxisLineStyle(
               thicknessUnit: GaugeSizeUnit.factor, thickness: 0.03),
           majorTickStyle:
