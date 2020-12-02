@@ -6,7 +6,7 @@ import 'package:gas3/homePage/kmhTextDisplay.dart';
 import 'package:gas3/homePage/kmhTextShaker.dart';
 import 'package:gas3/homePage/speedometer.dart';
 import 'package:gas3/homePage/speedometerShaker.dart';
-import 'package:gas3/settingsPage.dart';
+import 'package:gas3/SettingsPage/settingsPage.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:logger/logger.dart';
 import 'package:screen/screen.dart';
@@ -152,7 +152,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
           IconButton(
               icon: Icon(Icons.settings),
               onPressed: () {
-                player.stop();
+                player.pause();
                 log.i("Audio wird angehalten");
                 Navigator.push(
                   context,

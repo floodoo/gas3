@@ -15,6 +15,7 @@ dependencies:
   audioplayers: ^0.16.2
   logger: ^0.9.4
   url_launcher: ^5.7.10
+  flare_flutter: ^2.0.1
   
   cupertino_icons: ^1.0.0
 
@@ -33,5 +34,6 @@ flutter:
   uses-material-design: true
 
   assets:
-  - assets/audio/gas.mp3
-  - assets/images/speedIcon.png
+  - assets/audio/
+  - assets/images/
+  - assets/animation/

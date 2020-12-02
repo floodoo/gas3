@@ -6,6 +6,7 @@ INJECTED from /Users/Flo/Documents/development/flutter_projects/gas3/android/app
 INJECTED from /Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:1:1-50:12
 MERGED from /Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:1:1-50:12
 MERGED from [:screen] /Users/Flo/Documents/development/flutter_projects/gas3/build/screen/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:url_launcher] /Users/Flo/Documents/development/flutter_projects/gas3/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
 MERGED from [:audioplayers] /Users/Flo/Documents/development/flutter_projects/gas3/build/audioplayers/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:geolocator] /Users/Flo/Documents/development/flutter_projects/gas3/build/geolocator/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:path_provider] /Users/Flo/Documents/development/flutter_projects/gas3/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
@@ -54,6 +55,8 @@ ADDED from /Users/Flo/Documents/development/flutter_projects/gas3/android/app/sr
 		ADDED from /Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:9:22-65
 application
 ADDED from /Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:11:5-49:19
+MERGED from [:url_launcher] /Users/Flo/Documents/development/flutter_projects/gas3/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher] /Users/Flo/Documents/development/flutter_projects/gas3/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
 MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/df3d45654315cc7c4e9333a3fb7b0815/play-services-location-17.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/df3d45654315cc7c4e9333a3fb7b0815/play-services-location-17.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/5ac9ad6f13ea0190a3570ea7a43d9f59/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
@@ -124,6 +127,8 @@ INJECTED from /Users/Flo/Documents/development/flutter_projects/gas3/android/app
 INJECTED from /Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml
 MERGED from [:screen] /Users/Flo/Documents/development/flutter_projects/gas3/build/screen/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:screen] /Users/Flo/Documents/development/flutter_projects/gas3/build/screen/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:url_launcher] /Users/Flo/Documents/development/flutter_projects/gas3/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] /Users/Flo/Documents/development/flutter_projects/gas3/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:audioplayers] /Users/Flo/Documents/development/flutter_projects/gas3/build/audioplayers/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-44
 MERGED from [:audioplayers] /Users/Flo/Documents/development/flutter_projects/gas3/build/audioplayers/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-44
 MERGED from [:geolocator] /Users/Flo/Documents/development/flutter_projects/gas3/build/geolocator/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
@@ -178,6 +183,14 @@ uses-permission#android.permission.INTERNET
 ADDED from /Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/debug/AndroidManifest.xml:6:5-66
 	android:name
 		ADDED from /Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/debug/AndroidManifest.xml:6:22-64
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher] /Users/Flo/Documents/development/flutter_projects/gas3/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+	android:exported
+		ADDED from [:url_launcher] /Users/Flo/Documents/development/flutter_projects/gas3/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [:url_launcher] /Users/Flo/Documents/development/flutter_projects/gas3/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+	android:name
+		ADDED from [:url_launcher] /Users/Flo/Documents/development/flutter_projects/gas3/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/5ac9ad6f13ea0190a3570ea7a43d9f59/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
 	android:exported
