@@ -296,6 +296,42 @@
       "languageVersion": "2.10"
     },
     {
+      "name": "url_launcher",
+      "rootUri": "file:///Users/Flo/Documents/development/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.7.10",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "url_launcher_linux",
+      "rootUri": "file:///Users/Flo/Documents/development/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_linux-0.0.1+4",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "url_launcher_macos",
+      "rootUri": "file:///Users/Flo/Documents/development/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-0.0.1+9",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "url_launcher_platform_interface",
+      "rootUri": "file:///Users/Flo/Documents/development/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_platform_interface-1.0.9",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "url_launcher_web",
+      "rootUri": "file:///Users/Flo/Documents/development/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-0.1.5+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.2"
+    },
+    {
+      "name": "url_launcher_windows",
+      "rootUri": "file:///Users/Flo/Documents/development/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_windows-0.0.1+3",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
       "name": "uuid",
       "rootUri": "file:///Users/Flo/Documents/development/flutter/.pub-cache/hosted/pub.dartlang.org/uuid-2.2.2",
       "packageUri": "lib/",
@@ -338,7 +374,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2020-11-29T17:53:56.182420Z",
+  "generated": "2020-12-02T08:09:16.407139Z",
   "generator": "pub",
   "generatorVersion": "2.10.4"
 }

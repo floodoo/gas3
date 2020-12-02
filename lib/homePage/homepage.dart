@@ -6,6 +6,7 @@ import 'package:gas3/homePage/kmhTextDisplay.dart';
 import 'package:gas3/homePage/kmhTextShaker.dart';
 import 'package:gas3/homePage/speedometer.dart';
 import 'package:gas3/homePage/speedometerShaker.dart';
+import 'package:gas3/settingsPage.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:logger/logger.dart';
 import 'package:screen/screen.dart';
@@ -34,7 +35,6 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
         speedInKmh = speedInMps * 3.6;
         speedInKmhString = speedInKmh.toStringAsFixed(0);
         player.setPlaybackRate(playbackRate: audioSpeed(speedInKmh));
-        speedInKmh = 150;
         if (speedInKmh >= 140) {
           shake = true;
         } else {
@@ -97,8 +97,13 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
   }
 
   void play() async {
-    player = await cache.loop("audio/gas.mp3");
-    log.i("Audio wird abgespielt");
+    if (player == null) {
+      player = await cache.loop("audio/gas.mp3");
+      log.i("Audio wird von vorne gespielt");
+    } else {
+      player.resume();
+      log.i("Audio wird fortgesetzt");
+    }
   }
 
   @override
@@ -142,6 +147,19 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
         title: Text("Gas³"),
         centerTitle: true,
         backgroundColor: Colors.black54,
+        automaticallyImplyLeading: false,
+        actions: [
+          IconButton(
+              icon: Icon(Icons.settings),
+              onPressed: () {
+                player.stop();
+                log.i("Audio wird angehalten");
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => SettingsPage()),
+                );
+              })
+        ],
       ),
       body: Container(
         color: Colors.black54,
