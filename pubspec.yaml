@@ -16,7 +16,9 @@ dependencies:
   logger: ^0.9.4
   url_launcher: ^5.7.10
   flare_flutter: ^2.0.1
-  
+  shared_preferences: ^0.5.12+4
+  flutter_colorpicker: ^0.2.6
+
   cupertino_icons: ^1.0.0
 
 dev_dependencies:
@@ -29,11 +31,10 @@ flutter_icons:
   ios: false
   image_path: "assets/images/speedIcon.png"
 
-
 flutter:
   uses-material-design: true
 
   assets:
-  - assets/audio/
-  - assets/images/
-  - assets/animation/
+    - assets/audio/
+    - assets/images/
+    - assets/animation/

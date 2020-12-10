@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gas3/SettingsPage/Buttons/colorpicker.dart';
 
 class ColorPickerButton extends StatelessWidget {
   @override
@@ -11,7 +12,12 @@ class ColorPickerButton extends StatelessWidget {
             child: ListTile(
               title: Text("Colorpicker"),
               trailing: Icon(Icons.colorize),
-              onTap: () {},
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => ColorPickerPage()),
+                );
+              },
             )));
   }
 }

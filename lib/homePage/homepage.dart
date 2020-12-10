@@ -7,6 +7,7 @@ import 'package:gas3/homePage/kmhTextShaker.dart';
 import 'package:gas3/homePage/speedometer.dart';
 import 'package:gas3/homePage/speedometerShaker.dart';
 import 'package:gas3/SettingsPage/settingsPage.dart';
+import 'package:gas3/highscore.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:logger/logger.dart';
 import 'package:screen/screen.dart';
@@ -34,6 +35,9 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
       setState(() {
         speedInKmh = speedInMps * 3.6;
         speedInKmhString = speedInKmh.toStringAsFixed(0);
+        if (speedInKmh == null) {
+          speedInKmh = 0;
+        }
         player.setPlaybackRate(playbackRate: audioSpeed(speedInKmh));
         if (speedInKmh >= 140) {
           shake = true;
@@ -92,7 +96,6 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
       statusBarColor: Colors.transparent,
     ));
     AudioPlayer.logEnabled = false;
-    play();
     shake = false;
   }
 
@@ -137,13 +140,26 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
         }
         break;
       case AppLifecycleState.detached:
+        if (player != null) {
+          player.pause();
+          log.i("Audio wird angehalten");
+        }
         break;
     }
   }
 
   Widget build(BuildContext context) {
+    play();
     return Scaffold(
       appBar: AppBar(
+        leading: IconButton(
+            icon: Icon(Icons.leaderboard),
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => Highscore()),
+              );
+            }),
         title: Text("Gas³"),
         centerTitle: true,
         backgroundColor: Colors.black54,

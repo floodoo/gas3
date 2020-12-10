@@ -6,6 +6,7 @@ INJECTED from /Users/Flo/Documents/development/flutter_projects/gas3/android/app
 INJECTED from /Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:1:1-50:12
 MERGED from /Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:1:1-50:12
 MERGED from [:screen] /Users/Flo/Documents/development/flutter_projects/gas3/build/screen/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:shared_preferences] /Users/Flo/Documents/development/flutter_projects/gas3/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:url_launcher] /Users/Flo/Documents/development/flutter_projects/gas3/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
 MERGED from [:audioplayers] /Users/Flo/Documents/development/flutter_projects/gas3/build/audioplayers/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:geolocator] /Users/Flo/Documents/development/flutter_projects/gas3/build/geolocator/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
@@ -127,6 +128,8 @@ INJECTED from /Users/Flo/Documents/development/flutter_projects/gas3/android/app
 INJECTED from /Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml
 MERGED from [:screen] /Users/Flo/Documents/development/flutter_projects/gas3/build/screen/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:screen] /Users/Flo/Documents/development/flutter_projects/gas3/build/screen/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:shared_preferences] /Users/Flo/Documents/development/flutter_projects/gas3/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /Users/Flo/Documents/development/flutter_projects/gas3/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:url_launcher] /Users/Flo/Documents/development/flutter_projects/gas3/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:url_launcher] /Users/Flo/Documents/development/flutter_projects/gas3/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:audioplayers] /Users/Flo/Documents/development/flutter_projects/gas3/build/audioplayers/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-44
