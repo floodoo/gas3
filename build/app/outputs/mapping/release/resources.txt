@@ -1,5 +1,5 @@
 android.content.res.Resources#getIdentifier present: true
-Web content present: false
+Web content present: true
 Referenced Strings:
   %s
   %s.%sParcelizer
@@ -11,6 +11,7 @@ Referenced Strings:
   ACTION_ARGUMENT_MOVEMENT_GRANULARITY_INT
   ACTION_ARGUMENT_SELECTION_END_INT
   ACTION_ARGUMENT_SELECTION_START_INT
+  ACTIVITY_NOT_FOUND
   ACTIVITY_NOT_SUPPLIED
   ADD
   ALERT
@@ -83,6 +84,7 @@ Referenced Strings:
   FlutterJNI
   FlutterLoader
   FlutterRenderer
+  FlutterSharedPreferences
   FlutterSplashView
   FlutterSurfaceView
   FlutterTextureView
@@ -179,6 +181,7 @@ Referenced Strings:
   NAMES_ROUTE
   NETWORK_ERROR
   NONE
+  NO_ACTIVITY
   NO_TARGET
   NULL
   NUMBER
@@ -187,6 +190,7 @@ Referenced Strings:
   NewApi
   NotificationCompat
   O:
+  OK
   ON_ANY
   ON_CREATE
   ON_DESTROY
@@ -266,6 +270,7 @@ Referenced Strings:
   SignIn.INTERNAL_API
   SignInClientImpl
   SignInCoordinator
+  StorageError
   StreamHandlerImpl
   SystemChannel
   SystemChrome.restoreSystemUIOverlays
@@ -336,7 +341,11 @@ Referenced Strings:
   UTF8
   UnknownNullness
   UntrackedBindService
+  UrlLauncherPlugin
   V:
+  VGhpcyBpcyB0aGUgcHJlZml4IGZvciBCaWdJb...
+  VGhpcyBpcyB0aGUgcHJlZml4IGZvciBEb3VibGUu
+  VGhpcyBpcyB0aGUgcHJlZml4IGZvciBhIGxpc3Qu
   VISIBLE_PASSWORD
   ViewCompat
   WORDS
@@ -450,6 +459,7 @@ Referenced Strings:
   bytes
   c
   cached_engine_id
+  canLaunch
   cancel
   cell
   character
@@ -457,13 +467,16 @@ Referenced Strings:
   circles
   class
   classes_to_restore
+  clear
   clearFocus
   cleartextTrafficPermitted
   click
   client_name
   clipboard
+  closeWebView
   cn.google
   codePoint
+  com.android.browser.headers
   com.android.vending
   com.google
   com.google.android.clockwork.home.UPD...
@@ -501,6 +514,7 @@ Referenced Strings:
   com.google.android.wearable.app
   com.google.app.id
   com.google.common.base.Strings
+  commit
   common_google_play_services_api_unava...
   common_google_play_services_invalid_a...
   common_google_play_services_invalid_a...
@@ -545,6 +559,8 @@ Referenced Strings:
   editingValue
   email
   emailAddress
+  enableDomStorage
+  enableJavaScript
   enableSuggestions
   enable_state_restoration
   enabled
@@ -564,6 +580,7 @@ Referenced Strings:
   find
   flags
   flutter
+  flutter.
   flutter.baseflow.com/geolocator
   flutter.baseflow.com/geolocator_updates
   flutter.plugins.screen.screen.ScreenP...
@@ -589,6 +606,7 @@ Referenced Strings:
   gcore_
   gender
   get
+  getAll
   getApplicationDocumentsDirectory
   getApplicationSupportDirectory
   getChildId
@@ -615,6 +633,7 @@ Referenced Strings:
   grantedScopes
   guava.concurrent.generate_cancellatio...
   handled
+  headers
   heading
   height
   help
@@ -649,6 +668,7 @@ Referenced Strings:
   kind
   label
   latitude
+  launch
   layout_inflater
   libapp.so
   libflutter.so
@@ -735,6 +755,8 @@ Referenced Strings:
   playingRoute
   plugins
   plugins.flutter.io/path_provider
+  plugins.flutter.io/shared_preferences
+  plugins.flutter.io/url_launcher
   popRoute
   position
   postalAddress
@@ -752,6 +774,7 @@ Referenced Strings:
   release
   releaseMode
   remoteInputs
+  remove
   removeObserver
   removeView
   removeViewImmediate
@@ -786,14 +809,19 @@ Referenced Strings:
   serverAuthCode
   service_esmobile
   service_googleme
+  setBool
   setBrightness
   setDataSource
   setDirection
+  setDouble
   setInitialRoute
+  setInt
   setLocale
   setPlaybackRate
   setPlayingRoute
   setReleaseMode
+  setString
+  setStringList
   setUrl
   setValue
   setVolume
@@ -843,6 +871,7 @@ Referenced Strings:
   unknown
   updateViewLayout
   url
+  useWebView
   user
   username
   value
@@ -965,6 +994,7 @@ Marking id:action_text:2131034148 used because its prefix matches string pool co
 Marking id:actions:2131034149 used because its prefix matches string pool constant action
 Marking id:text:2131034183 used because its prefix matches string pool constant text
 Marking id:text2:2131034184 used because its prefix matches string pool constant text
+Marking drawable:launch_background:2130968597 used because its prefix matches string pool constant launch
 Marking id:none:2131034167 used because its prefix matches string pool constant none
 Marking id:dark:2131034156 used because its prefix matches string pool constant dark
 Resource Reference Graph:
