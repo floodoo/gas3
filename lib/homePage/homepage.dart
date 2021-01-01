@@ -27,7 +27,6 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
       LocationOptions(accuracy: LocationAccuracy.high, distanceFilter: 10);
   static AudioCache cache = AudioCache();
   AudioPlayer player;
-  final log = Logger();
 
   Future<void> getVehicleSpeed() async {
     Geolocator.getPositionStream().listen((position) async {
@@ -102,10 +101,8 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
   void play() async {
     if (player == null) {
       player = await cache.loop("audio/gas.mp3");
-      log.i("Audio wird von vorne gespielt");
     } else {
       player.resume();
-      log.i("Audio wird fortgesetzt");
     }
   }
 
@@ -124,25 +121,21 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
       case AppLifecycleState.resumed:
         if (player != null) {
           player.resume();
-          log.i("Audio wird fortgesetzt");
         }
         break;
       case AppLifecycleState.inactive:
         if (player != null) {
           player.pause();
-          log.i("Audio wird angehalten");
         }
         break;
       case AppLifecycleState.paused:
         if (player != null) {
           player.pause();
-          log.i("Audio wird angehalten");
         }
         break;
       case AppLifecycleState.detached:
         if (player != null) {
           player.pause();
-          log.i("Audio wird angehalten");
         }
         break;
     }
@@ -169,7 +162,6 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
               icon: Icon(Icons.settings),
               onPressed: () {
                 player.pause();
-                log.i("Audio wird angehalten");
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => SettingsPage()),
