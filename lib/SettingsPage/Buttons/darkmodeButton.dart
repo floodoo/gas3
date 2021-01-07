@@ -10,8 +10,8 @@ class DarkModeButton extends StatefulWidget {
 
 class _DarkModeButtonState extends State<DarkModeButton> {
   bool isSwitched = false;
-  bool _isLoading = true;
   bool isSwitchedSp;
+  bool _isLoading = true;
 
   darkmodeToSp() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
@@ -25,6 +25,19 @@ class _DarkModeButtonState extends State<DarkModeButton> {
     setState(() {
       _isLoading = false;
     });
+  }
+
+  changeMode() {
+    ThemeChanger _themeChanger =
+        Provider.of<ThemeChanger>(context, listen: false);
+    if (isSwitched == true) {
+      isSwitched = false;
+      _themeChanger.setTheme(ThemeData.light());
+    } else if (isSwitched == false) {
+      isSwitched = true;
+      _themeChanger.setTheme(ThemeData.dark());
+    }
+    darkmodeToSp();
   }
 
   @override
@@ -62,16 +75,7 @@ class _DarkModeButtonState extends State<DarkModeButton> {
                           });
                         }),
                     onTap: () {
-                      setState(() {
-                        if (isSwitched == true) {
-                          isSwitched = false;
-                          _themeChanger.setTheme(ThemeData.light());
-                        } else if (isSwitched == false) {
-                          isSwitched = true;
-                          _themeChanger.setTheme(ThemeData.dark());
-                        }
-                        darkmodeToSp();
-                      });
+                      changeMode();
                     },
                   )));
   }
