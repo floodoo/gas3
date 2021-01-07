@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:gas3/SettingsPage/theme.dart';
+import 'package:provider/provider.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class DarkModeButton extends StatefulWidget {
   @override
@@ -6,33 +9,70 @@ class DarkModeButton extends StatefulWidget {
 }
 
 class _DarkModeButtonState extends State<DarkModeButton> {
-  bool isSwitched = true;
+  bool isSwitched = false;
+  bool _isLoading = true;
+  bool isSwitchedSp;
+
+  darkmodeToSp() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    prefs.setBool("darkmode", isSwitched);
+  }
+
+  getDarkmodeFromSp() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    isSwitchedSp = prefs.getBool("darkmode");
+    isSwitchedSp == null ? isSwitched = false : isSwitched = isSwitchedSp;
+    setState(() {
+      _isLoading = false;
+    });
+  }
+
+  @override
+  initState() {
+    super.initState();
+    getDarkmodeFromSp();
+  }
 
   @override
   Widget build(BuildContext context) {
+    ThemeChanger _themeChanger = Provider.of<ThemeChanger>(context);
+
     return Padding(
         padding: EdgeInsets.all(15),
         child: Card(
             shape:
                 RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
-            child: ListTile(
-              title: Text("Darkmode ?"),
-              trailing: Switch(
-                  value: isSwitched,
-                  onChanged: (value) {
-                    setState(() {
-                      isSwitched = value;
-                    });
-                  }),
-              onTap: () {
-                setState(() {
-                  if (isSwitched == true) {
-                    isSwitched = false;
-                  } else if (isSwitched == false) {
-                    isSwitched = true;
-                  }
-                });
-              },
-            )));
+            child: _isLoading
+                ? ListTile(
+                    title: Text("Wird geladen..."),
+                  )
+                : ListTile(
+                    title: Text("Darkmode ?"),
+                    trailing: Switch(
+                        value: isSwitched,
+                        onChanged: (value) {
+                          setState(() {
+                            isSwitched = value;
+                            if (isSwitched == true) {
+                              _themeChanger.setTheme(ThemeData.dark());
+                            } else if (isSwitched == false) {
+                              _themeChanger.setTheme(ThemeData.light());
+                            }
+                            darkmodeToSp();
+                          });
+                        }),
+                    onTap: () {
+                      setState(() {
+                        if (isSwitched == true) {
+                          isSwitched = false;
+                          _themeChanger.setTheme(ThemeData.light());
+                        } else if (isSwitched == false) {
+                          isSwitched = true;
+                          _themeChanger.setTheme(ThemeData.dark());
+                        }
+                        darkmodeToSp();
+                      });
+                    },
+                  )));
   }
 }

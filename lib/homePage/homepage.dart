@@ -9,7 +9,6 @@ import 'package:gas3/homePage/speedometerShaker.dart';
 import 'package:gas3/SettingsPage/settingsPage.dart';
 import 'package:gas3/highscore.dart';
 import 'package:geolocator/geolocator.dart';
-import 'package:logger/logger.dart';
 import 'package:screen/screen.dart';
 
 class HomePage extends StatefulWidget {
