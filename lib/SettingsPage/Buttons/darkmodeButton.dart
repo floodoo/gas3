@@ -48,8 +48,6 @@ class _DarkModeButtonState extends State<DarkModeButton> {
 
   @override
   Widget build(BuildContext context) {
-    ThemeChanger _themeChanger = Provider.of<ThemeChanger>(context);
-
     return Padding(
         padding: EdgeInsets.all(15),
         child: Card(
@@ -66,12 +64,7 @@ class _DarkModeButtonState extends State<DarkModeButton> {
                         onChanged: (value) {
                           setState(() {
                             isSwitched = value;
-                            if (isSwitched == true) {
-                              _themeChanger.setTheme(ThemeData.dark());
-                            } else if (isSwitched == false) {
-                              _themeChanger.setTheme(ThemeData.light());
-                            }
-                            darkmodeToSp();
+                            changeMode();
                           });
                         }),
                     onTap: () {
