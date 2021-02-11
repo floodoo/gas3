@@ -87,6 +87,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
   @override
   void initState() {
     super.initState();
+    play();
     WidgetsBinding.instance.addObserver(this);
     getVehicleSpeed();
     Screen.keepOn(true);
@@ -97,18 +98,13 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     shake = false;
   }
 
-  void play() async {
-    if (player == null) {
-      player = await cache.loop("audio/gas.mp3");
-    } else {
-      player.resume();
-    }
+  play() async {
+    player = await cache.loop("audio/gas.mp3");
   }
 
   @override
   void dispose() {
     WidgetsBinding.instance.removeObserver(this);
-
     super.dispose();
   }
 
@@ -141,12 +137,12 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
   }
 
   Widget build(BuildContext context) {
-    play();
     return Scaffold(
       appBar: AppBar(
         leading: IconButton(
             icon: Icon(Icons.leaderboard),
             onPressed: () {
+              player.stop();
               Navigator.push(
                 context,
                 MaterialPageRoute(builder: (context) => Highscore()),
@@ -160,7 +156,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
           IconButton(
               icon: Icon(Icons.settings),
               onPressed: () {
-                player.pause();
+                player.stop();
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => SettingsPage()),

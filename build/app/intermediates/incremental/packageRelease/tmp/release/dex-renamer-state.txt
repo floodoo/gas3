@@ -1,4 +1,4 @@
-#Mon Jan 11 21:39:40 CET 2021
-base.0=/Users/Flo/Documents/development/flutter_projects/gas3/build/app/intermediates/transforms/r8/release/0/classes.dex
+#Tue Jan 12 10:47:36 CET 2021
+base.0=/Users/Flo/Documents/development/flutter_projects/gas3/build/app/intermediates/dex/release/mergeDexRelease/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
