@@ -3,12 +3,9 @@ import 'package:gas3/SettingsPage/Buttons/appVersionButton.dart';
 import 'package:gas3/SettingsPage/Buttons/colorPickerButton.dart';
 import 'package:gas3/SettingsPage/Buttons/darkmodeButton.dart';
 import 'package:gas3/homePage/homepage.dart';
-import 'package:gas3/SettingsPage/Buttons/muteButton.dart';
 import 'package:gas3/SettingsPage/Buttons/shakeAnimationButton.dart';
-import 'package:logger/logger.dart';
 
 class SettingsPage extends StatelessWidget {
-  final log = Logger();
 
   @override
   Widget build(BuildContext context) {
@@ -31,7 +28,6 @@ class SettingsPage extends StatelessWidget {
             child: ListView(children: [
               Column(
                 children: [
-                  MuteButton(),
                   ShakeAnimationButton(),
                   DarkModeButton(),
                   ColorPickerButton(),

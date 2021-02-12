@@ -1,9 +1,8 @@
-import 'package:audioplayers/audio_cache.dart';
-import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:gas3/homePage/kmhTextDisplay.dart';
 import 'package:gas3/homePage/kmhTextShaker.dart';
+import 'package:gas3/homePage/music.dart';
 import 'package:gas3/homePage/speedometer.dart';
 import 'package:gas3/homePage/speedometerShaker.dart';
 import 'package:gas3/SettingsPage/settingsPage.dart';
@@ -24,8 +23,8 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
   var geolocator = Geolocator();
   var locationOptions =
       LocationOptions(accuracy: LocationAccuracy.high, distanceFilter: 10);
-  static AudioCache cache = AudioCache();
-  AudioPlayer player;
+  bool music = false;
+  var icon = Icons.music_off;
 
   Future<void> getVehicleSpeed() async {
     Geolocator.getPositionStream().listen((position) async {
@@ -36,7 +35,10 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
         if (speedInKmh == null) {
           speedInKmh = 0;
         }
-        player.setPlaybackRate(playbackRate: audioSpeed(speedInKmh));
+        if (music == true) {
+          Music.instance.player
+              .setPlaybackRate(playbackRate: audioSpeed(speedInKmh));
+        }
         if (speedInKmh >= 140) {
           shake = true;
         } else {
@@ -87,53 +89,13 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
   @override
   void initState() {
     super.initState();
-    play();
     WidgetsBinding.instance.addObserver(this);
     getVehicleSpeed();
     Screen.keepOn(true);
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
       statusBarColor: Colors.transparent,
     ));
-    AudioPlayer.logEnabled = false;
     shake = false;
-  }
-
-  play() async {
-    player = await cache.loop("audio/gas.mp3");
-  }
-
-  @override
-  void dispose() {
-    WidgetsBinding.instance.removeObserver(this);
-    super.dispose();
-  }
-
-  @override
-  void didChangeAppLifecycleState(AppLifecycleState state) {
-    super.didChangeAppLifecycleState(state);
-
-    switch (state) {
-      case AppLifecycleState.resumed:
-        if (player != null) {
-          player.resume();
-        }
-        break;
-      case AppLifecycleState.inactive:
-        if (player != null) {
-          player.pause();
-        }
-        break;
-      case AppLifecycleState.paused:
-        if (player != null) {
-          player.pause();
-        }
-        break;
-      case AppLifecycleState.detached:
-        if (player != null) {
-          player.pause();
-        }
-        break;
-    }
   }
 
   Widget build(BuildContext context) {
@@ -142,7 +104,6 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
         leading: IconButton(
             icon: Icon(Icons.leaderboard),
             onPressed: () {
-              player.stop();
               Navigator.push(
                 context,
                 MaterialPageRoute(builder: (context) => Highscore()),
@@ -154,9 +115,21 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
         automaticallyImplyLeading: false,
         actions: [
           IconButton(
+              icon: Icon(icon),
+              onPressed: () {
+                if (music == true) {
+                  music = false;
+                  Music.instance.stopLoop();
+                  icon = Icons.music_off;
+                } else {
+                  music = true;
+                  Music.instance.playLoop();
+                  icon = Icons.music_note;
+                }
+              }),
+          IconButton(
               icon: Icon(Icons.settings),
               onPressed: () {
-                player.stop();
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => SettingsPage()),
