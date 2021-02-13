@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gas3/SettingsPage/theme.dart';
-import 'package:gas3/homePage/homepage.dart';
+import 'package:gas3/splashScreen.dart';
 import 'package:provider/provider.dart';
 
 void main() {
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         builder: (context, ThemeNotifier notifier, child) {
           return MaterialApp(
             theme: notifier.darkTheme ? dark : light,
-            home: HomePage(),
+            home: SplashScreen(),
           );
         },
       ),
