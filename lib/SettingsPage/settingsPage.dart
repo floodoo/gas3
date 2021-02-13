@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:gas3/SettingsPage/Buttons/appVersionButton.dart';
-import 'package:gas3/SettingsPage/Buttons/colorPickerButton.dart';
 import 'package:gas3/SettingsPage/Buttons/darkmodeButton.dart';
 import 'package:gas3/homePage/homepage.dart';
 import 'package:gas3/SettingsPage/Buttons/shakeAnimationButton.dart';

@@ -9,6 +9,7 @@ import 'package:gas3/SettingsPage/settingsPage.dart';
 import 'package:gas3/highscore.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:screen/screen.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -25,6 +26,21 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
       LocationOptions(accuracy: LocationAccuracy.high, distanceFilter: 10);
   bool music = false;
   var icon = Icons.music_off;
+  double highscore;
+
+  addHighscoreToSP() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    prefs.setDouble("highscore", highscore);
+    print(highscore);
+  }
+
+  getHighscoreFromSP() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    highscore = prefs.getDouble("highscore");
+    if (highscore == null) {
+      highscore = 0.0;
+    }
+  }
 
   Future<void> getVehicleSpeed() async {
     Geolocator.getPositionStream().listen((position) async {
@@ -32,6 +48,12 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
       setState(() {
         speedInKmh = speedInMps * 3.6;
         speedInKmhString = speedInKmh.toStringAsFixed(0);
+        if (highscore != null) {
+          if (speedInKmh > highscore) {
+            highscore = speedInKmh;
+            addHighscoreToSP();
+          }
+        }
         if (speedInKmh == null) {
           speedInKmh = 0;
         }
@@ -89,6 +111,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
   @override
   void initState() {
     super.initState();
+    getHighscoreFromSP();
     WidgetsBinding.instance.addObserver(this);
     getVehicleSpeed();
     Screen.keepOn(true);
