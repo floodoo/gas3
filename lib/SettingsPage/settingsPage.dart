@@ -30,7 +30,6 @@ class SettingsPage extends StatelessWidget {
                 children: [
                   ShakeAnimationButton(),
                   DarkModeButton(),
-                  ColorPickerButton(),
                   AppVersionButton(),
                 ],
               ),

@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-ThemeData light = ThemeData(
-  brightness: Brightness.light,
-);
+ThemeData light = ThemeData(brightness: Brightness.light);
 
 ThemeData dark = ThemeData(
   brightness: Brightness.dark,
@@ -15,7 +13,7 @@ class ThemeNotifier extends ChangeNotifier {
   bool _darkTheme;
 
   bool get darkTheme => _darkTheme;
-  
+
   ThemeNotifier() {
     _darkTheme = true;
     _loadFromPrefs();
@@ -28,8 +26,7 @@ class ThemeNotifier extends ChangeNotifier {
   }
 
   _initPrefs() async {
-    if(_prefs == null)
-      _prefs = await SharedPreferences.getInstance();
+    if (_prefs == null) _prefs = await SharedPreferences.getInstance();
   }
 
   _loadFromPrefs() async {
@@ -38,9 +35,8 @@ class ThemeNotifier extends ChangeNotifier {
     notifyListeners();
   }
 
-  _saveToPrefs()async {
+  _saveToPrefs() async {
     await _initPrefs();
     _prefs.setBool(key, _darkTheme);
   }
-
 }
