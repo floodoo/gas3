@@ -104,6 +104,9 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
         leading: IconButton(
             icon: Icon(Icons.leaderboard),
             onPressed: () {
+              music = false;
+              icon = Icons.music_off;
+              Music.instance.stopLoop();
               Navigator.push(
                 context,
                 MaterialPageRoute(builder: (context) => Highscore()),
@@ -130,6 +133,9 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
           IconButton(
               icon: Icon(Icons.settings),
               onPressed: () {
+                music = false;
+                icon = Icons.music_off;
+                Music.instance.stopLoop();
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => SettingsPage()),
