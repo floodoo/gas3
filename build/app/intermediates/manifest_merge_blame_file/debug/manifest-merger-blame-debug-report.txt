@@ -120,11 +120,11 @@
 80-->[com.google.android.gms:play-services-base:17.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/5ac9ad6f13ea0190a3570ea7a43d9f59/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
 81
 82        <meta-data
-82-->[com.google.android.gms:play-services-basement:17.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/2a19ba8b81f2f886f8d9b9a2e77609e0/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+82-->[com.google.android.gms:play-services-basement:17.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/5ec134d3daff5b68796615e0eedbb803/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
 83            android:name="com.google.android.gms.version"
-83-->[com.google.android.gms:play-services-basement:17.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/2a19ba8b81f2f886f8d9b9a2e77609e0/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+83-->[com.google.android.gms:play-services-basement:17.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/5ec134d3daff5b68796615e0eedbb803/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
 84            android:value="@integer/google_play_services_version" />
-84-->[com.google.android.gms:play-services-basement:17.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/2a19ba8b81f2f886f8d9b9a2e77609e0/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+84-->[com.google.android.gms:play-services-basement:17.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/5ec134d3daff5b68796615e0eedbb803/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
 85    </application>
 86
 87</manifest>

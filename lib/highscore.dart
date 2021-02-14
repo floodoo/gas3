@@ -1,5 +1,6 @@
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
+import 'package:gas3/areYouSureDialog.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class Highscore extends StatefulWidget {
@@ -35,6 +36,22 @@ class _HighscoreState extends State<Highscore> {
         title: Text("Highscore"),
         centerTitle: true,
         backgroundColor: Colors.black54,
+        actions: [
+          IconButton(
+            icon: Icon(
+              Icons.delete,
+            ),
+            onPressed: () async {
+              var result = await showDialog(
+                  context: context, builder: (_) => AreYouSureDialog());
+              if (result == true) {
+                setState(() {
+                  getHighscoreFromSP();
+                });
+              }
+            },
+          )
+        ],
       ),
       body: Container(
         color: Colors.black54,

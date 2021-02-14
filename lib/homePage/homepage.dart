@@ -31,7 +31,6 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
   addHighscoreToSP() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     prefs.setDouble("highscore", highscore);
-    print(highscore);
   }
 
   getHighscoreFromSP() async {
