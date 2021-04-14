@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/audioplayers/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/40a76103e3c2934687f0f38d9e06d162/core-1.6.0-alpha01/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/audioplayers/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/40a76103e3c2934687f0f38d9e06d162/core-1.6.0-alpha01/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/audioplayers/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/40a76103e3c2934687f0f38d9e06d162/core-1.6.0-alpha01/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/audioplayers/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/40a76103e3c2934687f0f38d9e06d162/core-1.6.0-alpha01/res/layout-v21/notification_template_icon_group.xml"
+    }
+]

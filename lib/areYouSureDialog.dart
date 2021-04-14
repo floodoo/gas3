@@ -15,18 +15,17 @@ class AreYouSureDialog extends StatelessWidget {
       title: Text("Warning"),
       content: Text("Do you really want to delete the highscore?"),
       actions: [
-        FlatButton(
+        TextButton(
           child: Text("Cancel"),
           onPressed: () {
             Navigator.of(context).pop(false);
           },
         ),
-        FlatButton(
+        TextButton(
           child: Text("Delete"),
           onPressed: () {
             addHighscoreToSP();
             Navigator.of(context).pop(true);
-            
           },
         )
       ],

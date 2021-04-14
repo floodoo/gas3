@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/screen/intermediates/res/merged/release/drawable-xhdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/182ebe399f37cf91a97ed6a17835e33b/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/screen/intermediates/res/merged/release/drawable-xhdpi-v4/notification_bg_normal.9.png",
+        "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/182ebe399f37cf91a97ed6a17835e33b/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/screen/intermediates/res/merged/release/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/182ebe399f37cf91a97ed6a17835e33b/core-1.1.0/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/screen/intermediates/res/merged/release/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/182ebe399f37cf91a97ed6a17835e33b/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/screen/intermediates/res/merged/release/drawable-xhdpi-v4/notification_bg_low_normal.9.png",
+        "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/182ebe399f37cf91a97ed6a17835e33b/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+    }
+]

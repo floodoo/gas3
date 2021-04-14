@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/url_launcher/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/182ebe399f37cf91a97ed6a17835e33b/core-1.1.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/url_launcher/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/182ebe399f37cf91a97ed6a17835e33b/core-1.1.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/url_launcher/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/182ebe399f37cf91a97ed6a17835e33b/core-1.1.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/url_launcher/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/182ebe399f37cf91a97ed6a17835e33b/core-1.1.0/res/layout-v21/notification_template_icon_group.xml"
+    }
+]

@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:gas3/homePage/kmhTextDisplay.dart';
 import 'package:gas3/homePage/kmhTextShaker.dart';
 import 'package:gas3/homePage/music.dart';
+import 'package:gas3/homePage/noMusicDialog.dart';
 import 'package:gas3/homePage/speedometer.dart';
 import 'package:gas3/homePage/speedometerShaker.dart';
 import 'package:gas3/SettingsPage/settingsPage.dart';
@@ -141,15 +142,22 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
         actions: [
           IconButton(
               icon: Icon(icon),
-              onPressed: () {
+              onPressed: () async {
                 if (music == true) {
                   music = false;
                   Music.instance.stopLoop();
                   icon = Icons.music_off;
                 } else {
-                  music = true;
-                  Music.instance.playLoop();
-                  icon = Icons.music_note;
+                  if (Music.instance.isMusic != false) {
+                    music = true;
+                    Music.instance.playLoop();
+                    icon = Icons.music_note;
+                  } else {
+                    music = false;
+                    showDialog(
+                        context: context, builder: (_) => NoMusicDialog());
+                    icon = Icons.music_off;
+                  }
                 }
               }),
           IconButton(

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:gas3/SettingsPage/Buttons/appVersionButton.dart';
+import 'package:gas3/SettingsPage/Buttons/changeMusic.dart';
 import 'package:gas3/SettingsPage/Buttons/darkmodeButton.dart';
 import 'package:gas3/homePage/homepage.dart';
 import 'package:gas3/SettingsPage/Buttons/shakeAnimationButton.dart';
 
 class SettingsPage extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -29,6 +29,7 @@ class SettingsPage extends StatelessWidget {
                 children: [
                   ShakeAnimationButton(),
                   DarkModeButton(),
+                  ChangeMusic(),
                   AppVersionButton(),
                 ],
               ),

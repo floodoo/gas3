@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/Flo/Documents/development/flutter_projects/gas3/build/audioplayers/intermediates/incremental/mergeReleaseResources/merged.dir/values-mr/values-mr.xml",
+            "map": [
+                {
+                    "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/40a76103e3c2934687f0f38d9e06d162/core-1.6.0-alpha01/res/values-mr/values-mr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Flo/Documents/development/flutter_projects/gas3/build/audioplayers/intermediates/res/merged/release/values-mr/values-mr.xml",
+            "map": [
+                {
+                    "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/40a76103e3c2934687f0f38d9e06d162/core-1.6.0-alpha01/res/values-mr/values-mr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

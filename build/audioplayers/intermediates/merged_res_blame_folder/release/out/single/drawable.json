@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/audioplayers/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/40a76103e3c2934687f0f38d9e06d162/core-1.6.0-alpha01/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/audioplayers/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/40a76103e3c2934687f0f38d9e06d162/core-1.6.0-alpha01/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/audioplayers/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/40a76103e3c2934687f0f38d9e06d162/core-1.6.0-alpha01/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/audioplayers/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/40a76103e3c2934687f0f38d9e06d162/core-1.6.0-alpha01/res/drawable/notification_icon_background.xml"
+    }
+]

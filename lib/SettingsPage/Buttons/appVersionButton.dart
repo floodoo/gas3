@@ -12,10 +12,11 @@ class AppVersionButton extends StatelessWidget {
         child: ListTile(
           leading: Icon(Icons.info),
           title: Text("App Version"),
-          trailing: Text("0.1.5"),
+          trailing: Text("1.0.0"),
           onTap: () {
-            SystemChrome.setSystemUIOverlayStyle(
-                SystemUiOverlayStyle(statusBarColor: Colors.black, systemNavigationBarColor: Colors.black));
+            SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+                statusBarColor: Colors.black,
+                systemNavigationBarColor: Colors.black));
             Navigator.push(
               context,
               MaterialPageRoute(builder: (context) => Firework()),
