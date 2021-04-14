@@ -27,104 +27,121 @@
 23    <uses-permission android:name="android.permission.WAKE_LOCK" />
 23-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:9:5-68
 23-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:9:22-65
-24
-25    <application
-25-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:11:5-49:19
-26        android:name="io.flutter.app.FlutterApplication"
-26-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:12:9-57
-27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-27-->[androidx.core:core:1.1.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:24:18-86
-28        android:debuggable="true"
-29        android:icon="@mipmap/ic_launcher"
-29-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:14:9-43
-30        android:label="gas3" >
-30-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:13:9-29
-31        <activity
-31-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:15:9-43:20
-32            android:name="com.example.gas3.MainActivity"
-32-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:16:13-41
-33            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-33-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:19:13-163
-34            android:hardwareAccelerated="true"
-34-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:20:13-47
-35            android:launchMode="singleTop"
-35-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:17:13-43
-36            android:theme="@style/LaunchTheme"
-36-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:18:13-47
-37            android:windowSoftInputMode="adjustResize" >
-37-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:21:13-55
-38
-39            <!--
-40                 Specifies an Android theme to apply to this Activity as soon as
-41                 the Android process has started. This theme is visible to the user
-42                 while the Flutter UI initializes. After that, this theme continues
-43                 to determine the Window background behind the Flutter UI.
-44            -->
-45            <meta-data
-45-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:26:13-29:17
-46                android:name="io.flutter.embedding.android.NormalTheme"
-46-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:27:15-70
-47                android:resource="@style/NormalTheme" />
-47-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:28:15-52
+24    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+24-->[:file_picker] /Users/Flo/Documents/development/flutter_projects/gas3/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+24-->[:file_picker] /Users/Flo/Documents/development/flutter_projects/gas3/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+25
+26    <queries>
+26-->[:file_picker] /Users/Flo/Documents/development/flutter_projects/gas3/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-15:15
+27        <intent>
+27-->[:file_picker] /Users/Flo/Documents/development/flutter_projects/gas3/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-14:18
+28            <action android:name="android.intent.action.GET_CONTENT" />
+28-->[:file_picker] /Users/Flo/Documents/development/flutter_projects/gas3/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-72
+28-->[:file_picker] /Users/Flo/Documents/development/flutter_projects/gas3/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:21-69
+29
+30            <data android:mimeType="*/*" />
+30-->[:file_picker] /Users/Flo/Documents/development/flutter_projects/gas3/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-44
+30-->[:file_picker] /Users/Flo/Documents/development/flutter_projects/gas3/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:19-41
+31        </intent>
+32    </queries>
+33
+34    <application
+34-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:11:5-49:19
+35        android:name="io.flutter.app.FlutterApplication"
+35-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:12:9-57
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.6.0-alpha01] /Users/Flo/.gradle/caches/transforms-2/files-2.1/40a76103e3c2934687f0f38d9e06d162/core-1.6.0-alpha01/AndroidManifest.xml:24:18-86
+37        android:debuggable="true"
+38        android:icon="@mipmap/ic_launcher"
+38-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:14:9-43
+39        android:label="gas3" >
+39-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:13:9-29
+40        <activity
+40-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:15:9-43:20
+41            android:name="com.example.gas3.MainActivity"
+41-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:16:13-41
+42            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+42-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:19:13-163
+43            android:hardwareAccelerated="true"
+43-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:20:13-47
+44            android:launchMode="singleTop"
+44-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:17:13-43
+45            android:theme="@style/LaunchTheme"
+45-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:18:13-47
+46            android:windowSoftInputMode="adjustResize" >
+46-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:21:13-55
+47
 48            <!--
-49                 Displays an Android View that continues showing the launch screen
-50                 Drawable until Flutter paints its first frame, then this splash
-51                 screen fades out. A splash screen is useful to avoid any visual
-52                 gap between the end of Android's launch screen and the painting of
-53                 Flutter's first frame.
-54            -->
-55            <meta-data
-55-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:35:13-38:17
-56                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-56-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:36:15-79
-57                android:resource="@drawable/launch_background" />
-57-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:37:15-61
-58
-59            <intent-filter>
-59-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:39:13-42:29
-60                <action android:name="android.intent.action.MAIN" />
-60-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:40:17-68
-60-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:40:25-66
-61
-62                <category android:name="android.intent.category.LAUNCHER" />
-62-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:41:17-76
-62-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:41:27-74
-63            </intent-filter>
-64        </activity>
-65        <!--
-66             Don't delete the meta-data below.
-67             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-68        -->
-69        <meta-data
-69-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:46:9-48:33
-70            android:name="flutterEmbedding"
-70-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:47:13-44
-71            android:value="2" />
-71-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:48:13-30
-72
-73        <activity
-73-->[:url_launcher] /Users/Flo/Documents/development/flutter_projects/gas3/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
-74            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-74-->[:url_launcher] /Users/Flo/Documents/development/flutter_projects/gas3/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
-75            android:exported="false"
-75-->[:url_launcher] /Users/Flo/Documents/development/flutter_projects/gas3/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
-76            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-76-->[:url_launcher] /Users/Flo/Documents/development/flutter_projects/gas3/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
-77        <activity
-77-->[com.google.android.gms:play-services-base:17.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/5ac9ad6f13ea0190a3570ea7a43d9f59/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
-78            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-78-->[com.google.android.gms:play-services-base:17.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/5ac9ad6f13ea0190a3570ea7a43d9f59/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
-79            android:exported="false"
-79-->[com.google.android.gms:play-services-base:17.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/5ac9ad6f13ea0190a3570ea7a43d9f59/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
-80            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-80-->[com.google.android.gms:play-services-base:17.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/5ac9ad6f13ea0190a3570ea7a43d9f59/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+49                 Specifies an Android theme to apply to this Activity as soon as
+50                 the Android process has started. This theme is visible to the user
+51                 while the Flutter UI initializes. After that, this theme continues
+52                 to determine the Window background behind the Flutter UI.
+53            -->
+54            <meta-data
+54-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:26:13-29:17
+55                android:name="io.flutter.embedding.android.NormalTheme"
+55-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:27:15-70
+56                android:resource="@style/NormalTheme" />
+56-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:28:15-52
+57            <!--
+58                 Displays an Android View that continues showing the launch screen
+59                 Drawable until Flutter paints its first frame, then this splash
+60                 screen fades out. A splash screen is useful to avoid any visual
+61                 gap between the end of Android's launch screen and the painting of
+62                 Flutter's first frame.
+63            -->
+64            <meta-data
+64-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:35:13-38:17
+65                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+65-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:36:15-79
+66                android:resource="@drawable/launch_background" />
+66-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:37:15-61
+67
+68            <intent-filter>
+68-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:39:13-42:29
+69                <action android:name="android.intent.action.MAIN" />
+69-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:40:17-68
+69-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:40:25-66
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:41:17-76
+71-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:41:27-74
+72            </intent-filter>
+73        </activity>
+74        <!--
+75             Don't delete the meta-data below.
+76             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+77        -->
+78        <meta-data
+78-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:46:9-48:33
+79            android:name="flutterEmbedding"
+79-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:47:13-44
+80            android:value="2" />
+80-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:48:13-30
 81
-82        <meta-data
-82-->[com.google.android.gms:play-services-basement:17.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/5ec134d3daff5b68796615e0eedbb803/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
-83            android:name="com.google.android.gms.version"
-83-->[com.google.android.gms:play-services-basement:17.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/5ec134d3daff5b68796615e0eedbb803/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
-84            android:value="@integer/google_play_services_version" />
-84-->[com.google.android.gms:play-services-basement:17.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/5ec134d3daff5b68796615e0eedbb803/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
-85    </application>
-86
-87</manifest>
+82        <activity
+82-->[:url_launcher] /Users/Flo/Documents/development/flutter_projects/gas3/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+83            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+83-->[:url_launcher] /Users/Flo/Documents/development/flutter_projects/gas3/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+84            android:exported="false"
+84-->[:url_launcher] /Users/Flo/Documents/development/flutter_projects/gas3/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+85            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+85-->[:url_launcher] /Users/Flo/Documents/development/flutter_projects/gas3/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+86        <activity
+86-->[com.google.android.gms:play-services-base:17.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/acf1048a45935c18697cc73673005ec4/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+87            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+87-->[com.google.android.gms:play-services-base:17.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/acf1048a45935c18697cc73673005ec4/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+88            android:exported="false"
+88-->[com.google.android.gms:play-services-base:17.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/acf1048a45935c18697cc73673005ec4/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+89            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+89-->[com.google.android.gms:play-services-base:17.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/acf1048a45935c18697cc73673005ec4/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+90
+91        <meta-data
+91-->[com.google.android.gms:play-services-basement:17.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/9757ef8dc224f868d1bd1249dcb5da7e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+92            android:name="com.google.android.gms.version"
+92-->[com.google.android.gms:play-services-basement:17.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/9757ef8dc224f868d1bd1249dcb5da7e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+93            android:value="@integer/google_play_services_version" />
+93-->[com.google.android.gms:play-services-basement:17.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/9757ef8dc224f868d1bd1249dcb5da7e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+94    </application>
+95
+96</manifest>
