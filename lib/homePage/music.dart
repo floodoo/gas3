@@ -9,7 +9,7 @@ class Music {
   AudioPlayer player = AudioPlayer();
   AudioCache cache = AudioCache();
   String filePath;
-  bool isMusic = false;
+  String loadFile;
 
   Music._privateConstructor() {
     this.player.setVolume(1.0);
@@ -24,34 +24,28 @@ class Music {
 
   getStringValuesSF() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    filePath = prefs.getString('audioFile');
+    loadFile = prefs.getString('audioFile');
+    player.stop();
+    player.play(loadFile, isLocal: true);
+    // player = await cache.loop(filePath);
   }
 
   Future playLoop() async {
     getStringValuesSF();
-    player.stop();
-    if (filePath != null) {
-      player.play(filePath, isLocal: true);
-      // player = await cache.loop(filePath);
-    }
   }
 
   void stopLoop() {
     player?.stop();
   }
 
-  getMusic() async {
-    FilePickerResult result =
-        await FilePicker.platform.pickFiles(type: FileType.audio);
+  getMusic(FilePickerResult result) async {
 
     if (result != null) {
       File file = File(result.files.single.path);
       filePath = file.path;
       addStringToSF();
-      isMusic = true;
     } else {
-      isMusic = false;
+      print("Canceled");
     }
-    return isMusic;
   }
 }

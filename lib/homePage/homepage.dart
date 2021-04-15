@@ -28,6 +28,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
   bool music = false;
   var icon = Icons.music_off;
   double highscore;
+  String loadFile;
 
   addHighscoreToSP() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
@@ -112,6 +113,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
   void initState() {
     super.initState();
     getHighscoreFromSP();
+    getStringValuesSF();
     WidgetsBinding.instance.addObserver(this);
     getVehicleSpeed();
     Screen.keepOn(true);
@@ -119,6 +121,11 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
       statusBarColor: Colors.transparent,
     ));
     shake = false;
+  }
+
+  getStringValuesSF() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    loadFile = prefs.getString('audioFile');
   }
 
   Widget build(BuildContext context) {
@@ -148,15 +155,18 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                   Music.instance.stopLoop();
                   icon = Icons.music_off;
                 } else {
-                  if (Music.instance.isMusic != false) {
+                  if (loadFile != null) {
                     music = true;
                     Music.instance.playLoop();
                     icon = Icons.music_note;
                   } else {
                     music = false;
-                    showDialog(
+                    String returnVal = await showDialog(
                         context: context, builder: (_) => NoMusicDialog());
                     icon = Icons.music_off;
+                    if (returnVal == "success") {
+                      getStringValuesSF();
+                    }
                   }
                 }
               }),

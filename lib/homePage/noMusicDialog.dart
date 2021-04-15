@@ -1,3 +1,4 @@
+import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:gas3/homePage/music.dart';
 
@@ -19,9 +20,12 @@ class NoMusicDialog extends StatelessWidget {
         ),
         TextButton(
           child: Text("Select Music"),
-          onPressed: () {
-            Music.instance.getMusic();
-            Navigator.of(context).pop();
+          onPressed: () async {
+            FilePickerResult result =
+                await FilePicker.platform.pickFiles(type: FileType.audio);
+
+            Music.instance.getMusic(result);
+            Navigator.of(context).pop("success");
           },
         )
       ],
