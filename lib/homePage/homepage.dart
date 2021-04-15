@@ -49,6 +49,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
       setState(() {
         speedInKmh = speedInMps * 3.6;
         speedInKmhString = speedInKmh.toStringAsFixed(0);
+
         if (highscore != null) {
           if (speedInKmh > highscore) {
             highscore = speedInKmh;
@@ -98,14 +99,8 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
       return 1.5;
     } else if (speedInKmh <= 160) {
       return 1.6;
-    } else if (speedInKmh <= 170) {
+    } else if (speedInKmh >= 170) {
       return 1.7;
-    } else if (speedInKmh <= 180) {
-      return 1.8;
-    } else if (speedInKmh <= 190) {
-      return 1.9;
-    } else if (speedInKmh >= 191) {
-      return 2.0;
     }
   }
 

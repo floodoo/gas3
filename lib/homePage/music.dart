@@ -26,8 +26,9 @@ class Music {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     loadFile = prefs.getString('audioFile');
     player.stop();
+    player.setReleaseMode(ReleaseMode.LOOP);
     player.play(loadFile, isLocal: true);
-    // player = await cache.loop(filePath);
+    // player = await cache.loop(loadFile);
   }
 
   Future playLoop() async {
@@ -39,7 +40,6 @@ class Music {
   }
 
   getMusic(FilePickerResult result) async {
-
     if (result != null) {
       File file = File(result.files.single.path);
       filePath = file.path;
