@@ -1176,6 +1176,7 @@ Marking attr:android_endX:-1 used because its prefix matches string pool constan
 Marking attr:android_endY:-1 used because its prefix matches string pool constant android
 Marking attr:android_tileMode:-1 used because its prefix matches string pool constant android
 Marking attr:android_offset:-1 used because its prefix matches string pool constant android
+Marking attr:shortcutMatchRequired:2130771988 used because its prefix matches string pool constant short
 Marking id:light:2131034164 used because its prefix matches string pool constant light
 Marking color:notification_action_color_filter:2130837517 used because its prefix matches string pool constant notification
 Marking color:notification_icon_bg_color:2130837518 used because its prefix matches string pool constant notification
@@ -1271,6 +1272,7 @@ style:Widget_Compat_NotificationActionText:2131361800 => [color:androidx_core_se
 The root reachable resources are:
 attr:imageAspectRatio:2130771983,
    attr:imageAspectRatioAdjust:2130771984,
+   attr:shortcutMatchRequired:2130771988,
    color:androidx_core_ripple_material_light:2130837504,
    color:androidx_core_secondary_text_default_material_light:2130837505,
    color:notification_action_color_filter:2130837517,

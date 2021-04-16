@@ -208,7 +208,7 @@
 -dontwarn org.checkerframework.**
 
 # End of content from /Users/Flo/.gradle/caches/transforms-2/files-2.1/9757ef8dc224f868d1bd1249dcb5da7e/jetified-play-services-basement-17.0.0/proguard.txt
-# The proguard configuration file for the following section is /Users/Flo/.gradle/caches/transforms-2/files-2.1/40a76103e3c2934687f0f38d9e06d162/core-1.6.0-alpha01/proguard.txt
+# The proguard configuration file for the following section is /Users/Flo/.gradle/caches/transforms-2/files-2.1/c3ca46944ea87eefc36c867b55049b8b/core-1.6.0-alpha02/proguard.txt
 # Never inline methods, but allow shrinking and obfuscation.
 -keepclassmembernames,allowobfuscation,allowshrinking class androidx.core.view.ViewCompat$Api* {
   <methods>;
@@ -219,8 +219,11 @@
 -keepclassmembernames,allowobfuscation,allowshrinking class androidx.core.app.NotificationCompat$*$Api*Impl {
   <methods>;
 }
+-keepclassmembernames,allowobfuscation,allowshrinking class androidx.core.os.UserHandleCompat$Api*Impl {
+  <methods>;
+}
 
-# End of content from /Users/Flo/.gradle/caches/transforms-2/files-2.1/40a76103e3c2934687f0f38d9e06d162/core-1.6.0-alpha01/proguard.txt
+# End of content from /Users/Flo/.gradle/caches/transforms-2/files-2.1/c3ca46944ea87eefc36c867b55049b8b/core-1.6.0-alpha02/proguard.txt
 # The proguard configuration file for the following section is /Users/Flo/.gradle/caches/transforms-2/files-2.1/ad32eeca3590d02d0f5a4362716c2f14/lifecycle-runtime-2.2.0/proguard.txt
 -keepattributes *Annotation*
 

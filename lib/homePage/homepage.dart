@@ -113,8 +113,8 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     getVehicleSpeed();
     Screen.keepOn(true);
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
-      statusBarColor: Colors.transparent,
-    ));
+        statusBarColor: Colors.transparent,
+        systemNavigationBarColor: Colors.black));
     shake = false;
   }
 

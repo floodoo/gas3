@@ -545,6 +545,7 @@ kotlin.collections.AbstractMap$Companion
 androidx.fragment.R$style
 androidx.core.database.CursorWindowCompat
 com.google.common.collect.MapMakerInternalMap$StrongKeyStrongValueEntry$Helper
+androidx.core.widget.CheckedTextViewCompat$Api16Impl
 com.google.common.util.concurrent.Monitor
 androidx.fragment.app.FragmentStatePagerAdapter
 com.google.android.gms.common.internal.Objects:
@@ -1204,6 +1205,7 @@ androidx.core.app.JobIntentService
 com.google.common.collect.ImmutableAsList
 com.google.common.collect.LexicographicalOrdering
 kotlin.jvm.internal.CallableReference
+androidx.core.location.LocationManagerCompat$Api30Impl
 com.google.common.graph.AbstractBaseGraph$IncidentEdgeSet$Undirected$1
 com.google.common.graph.ElementOrder$1
 com.google.common.collect.MultimapBuilder$MultimapBuilderWithKeys$1
@@ -1271,6 +1273,7 @@ com.google.common.cache.CacheBuilderSpec$ValueStrengthParser
 com.google.android.gms.common.internal.PendingResultUtil:
     public void <init>()
     public static com.google.android.gms.tasks.Task toVoidTask(com.google.android.gms.common.api.PendingResult)
+androidx.core.location.LocationManagerCompat$CancellableLocationListener
 com.google.common.cache.LocalCache$LoadingValueReference$1
 com.google.common.collect.Lists
 kotlin.text.StringsKt__StringsKt$splitToSequence$2
@@ -1318,7 +1321,6 @@ androidx.core.widget.TextViewKt$doBeforeTextChanged$$inlined$addTextChangedListe
 com.google.common.hash.AbstractHashFunction
 com.google.common.collect.ImmutableRangeSet$ComplementRanges
 kotlin.reflect.KClasses
-androidx.core.content.pm.ShortcutInfoChangeListener$NoopImpl
 com.google.android.gms.internal.location.zzbi
 com.google.android.gms.common.api.internal.zaan
 com.google.common.graph.MapIteratorCache$1
@@ -1553,6 +1555,7 @@ androidx.core.content.pm.ShortcutManagerCompat$1
 kotlin.text.StringsKt___StringsKt$windowedSequence$1
 androidx.core.app.JobIntentService$CompatWorkItem
 com.google.common.collect.Iterators$1
+androidx.core.telephony.SubscriptionManagerCompat$Api29Impl
 androidx.core.text.TextDirectionHeuristicsCompat
 com.google.common.collect.ImmutableMap$MapViewOfValuesAsSingletonSets$1$1
 kotlin.collections.State
@@ -1633,6 +1636,7 @@ kotlin.jvm.internal.ClassReference:
     public boolean isInner()
     public boolean isCompanion()
     public boolean isFun()
+androidx.core.widget.CheckedTextViewCompat$Api21Impl
 com.google.common.collect.ImmutableSet$Builder
 androidx.core.internal.package-info
 com.google.common.collect.LinkedListMultimap$ValueForKeyIterator
@@ -1716,6 +1720,7 @@ javax.annotation.concurrent.NotThreadSafe
 com.google.common.collect.FilteredKeyMultimap
 androidx.core.R$color
 com.google.common.cache.RemovalCause$1
+androidx.core.os.UserHandleCompat$Api24Impl
 com.google.android.gms.common.api.BooleanResult
 androidx.core.view.GestureDetectorCompat$GestureDetectorCompatImplBase$GestureHandler
 kotlin.collections.IndexedValue
@@ -1967,6 +1972,7 @@ kotlin.coroutines.jvm.internal.ContinuationImpl
 androidx.core.view.ViewCompat$NestedScrollType
 com.google.android.gms.actions.ItemListIntents
 com.google.android.gms.common.stats.LoggingConstants
+androidx.core.telephony.TelephonyManagerCompat$Api23Impl
 com.google.common.collect.ImmutableSet
 com.google.common.cache.CacheBuilder$3
 com.google.android.gms.common.api.Batch
@@ -3795,6 +3801,7 @@ kotlin.collections.AbstractSet$Companion
 javax.annotation.concurrent.ThreadSafe
 com.google.android.gms.dynamite.DynamiteModule
 com.google.common.util.concurrent.MoreExecutors$Application
+androidx.core.os.UserHandleCompat
 androidx.core.app.NotificationCompat$BubbleMetadata:
     private void <init>(android.app.PendingIntent,android.app.PendingIntent,androidx.core.graphics.drawable.IconCompat,int,int,int,java.lang.String)
     public static androidx.core.app.NotificationCompat$BubbleMetadata fromPlatform(android.app.Notification$BubbleMetadata)
@@ -4392,6 +4399,7 @@ com.google.common.util.concurrent.AsyncFunction
 kotlin.collections.ArraysKt___ArraysKt$withIndex$6
 com.google.common.collect.RegularImmutableMap
 com.google.common.cache.LocalCache$LocalManualCache
+androidx.core.location.LocationManagerCompat$3
 com.google.android.gms.common.api.internal.zaq
 com.google.android.gms.common.util.JsonUtils
 com.google.common.graph.EndpointPair$Ordered
@@ -4518,6 +4526,7 @@ com.google.common.hash.Hashing$ConcatenatedHashFunction
 com.google.android.gms.common.api.internal.zabx
 com.google.common.cache.RemovalCause$4
 com.google.common.collect.Synchronized$SynchronizedAsMapValues$1
+androidx.core.location.LocationCompat$Api18Impl
 com.google.android.gms.common.api.internal.GoogleApiManager$zaa:
     public final void zaa(com.google.android.gms.common.ConnectionResult,com.google.android.gms.common.api.Api,boolean)
     final com.google.android.gms.signin.zad zabq()
@@ -4673,6 +4682,7 @@ com.google.common.collect.ImmutableMultimap$FieldSettersHolder
 com.google.android.gms.internal.location.zzan
 androidx.viewpager.widget.PagerTabStrip$1
 androidx.core.content.PermissionChecker$PermissionResult
+androidx.core.location.LocationManagerCompat$Api30Impl$1
 com.google.common.escape.Platform$1
 com.google.android.gms.dynamic.zaa
 androidx.customview.R$drawable
@@ -5095,6 +5105,7 @@ io.flutter.embedding.engine.FlutterEngineConnectionRegistry$FlutterEngineContent
     void <init>(android.content.ContentProvider)
     public android.content.ContentProvider getContentProvider()
     private final android.content.ContentProvider contentProvider
+androidx.core.location.LocationManagerCompat$2
 com.google.android.gms.location.GeofencingRequest$Builder
 androidx.fragment.R$drawable
 com.google.android.gms.common.server.zaa
@@ -5183,6 +5194,7 @@ io.flutter.plugin.common.StandardMessageCodec:
     private static final byte DOUBLE_ARRAY
     private static final byte LIST
     private static final byte MAP
+androidx.core.widget.TintableCheckedTextView
 com.google.android.gms.common.util.DefaultClock:
     public long elapsedRealtime()
     public long nanoTime()
@@ -6113,6 +6125,7 @@ com.google.common.collect.UnmodifiableListIterator
 com.google.common.util.concurrent.InterruptibleTask
 com.google.android.gms.tasks.zzc:
     public final void cancel()
+androidx.core.location.LocationManagerCompat$CancellableLocationListener$1
 androidx.annotation.StringDef
 com.google.common.collect.AbstractListMultimap
 com.google.common.util.concurrent.ExecutionSequencer$1
@@ -6168,6 +6181,7 @@ kotlin.text.StringsKt__IndentKt:
     public void <init>()
 com.google.common.collect.HashBiMap$InverseEntrySet
 com.google.common.collect.Sets$DescendingSet
+androidx.core.location.LocationCompat$Api17Impl
 androidx.core.content.res.FontResourcesParserCompat
 com.google.common.math.LongMath
 com.google.common.collect.StandardTable$Column$EntrySet
@@ -6831,7 +6845,6 @@ com.google.android.gms.dynamite.zzl
 com.google.common.collect.ImmutableList$ReverseImmutableList
 kotlin.sequences.SequencesKt__SequencesKt$generateSequence$2
 androidx.core.ktx.R$styleable
-androidx.core.content.ContextCompat$MainHandlerExecutor
 com.google.common.reflect.TypeToken$TypeFilter
 androidx.core.graphics.drawable.IconKt
 com.google.android.gms.common.api.internal.zabe
@@ -7104,6 +7117,7 @@ kotlin.collections.Grouping
 com.google.android.gms.location.zzw:
     public final void onLocationResult(com.google.android.gms.location.LocationResult)
     public final void onLocationAvailability(com.google.android.gms.location.LocationAvailability)
+androidx.core.location.LocationManagerCompat$CancellableLocationListener$2
 com.google.firebase.FirebaseApiNotAvailableException
 com.google.android.gms.tasks.zzb
 com.google.common.graph.ImmutableValueGraph
@@ -7580,6 +7594,7 @@ io.flutter.util.Preconditions:
     public static void checkState(boolean)
 com.google.common.graph.EndpointPairIterator
 kotlin.collections.ReversedListReadOnly
+androidx.core.widget.CheckedTextViewCompat$Api14Impl
 com.google.common.graph.UndirectedMultiNetworkConnections$1
 com.google.common.hash.Hashing$1
 kotlin.collections.CollectionsKt__MutableCollectionsJVMKt:
@@ -7687,10 +7702,12 @@ com.google.common.collect.FilteredKeyListMultimap
 com.google.android.gms.internal.base.zaf
 com.google.common.hash.HashCode$LongHashCode
 com.google.common.collect.Sets$3
+androidx.core.telephony.TelephonyManagerCompat$Api26Impl
 androidx.core.view.WindowInsetsAnimationControlListenerCompat
 androidx.core.content.pm.ShortcutInfoChangeListener
 com.google.common.cache.LocalCache$WriteQueue
 androidx.core.widget.AutoScrollHelper$ClampedScroller
+androidx.core.widget.CheckedTextViewCompat
 com.google.common.util.concurrent.AbstractScheduledService$ServiceDelegate$2
 com.google.common.collect.TransformedIterator
 com.google.common.collect.AbstractNavigableMap$1
@@ -8455,6 +8472,7 @@ kotlin.collections.ArraysKt:
 androidx.core.app.NotificationCompat$BubbleMetadata$Api29Impl:
     private void <init>()
     static androidx.core.app.NotificationCompat$BubbleMetadata fromPlatform(android.app.Notification$BubbleMetadata)
+androidx.core.telephony.SubscriptionManagerCompat
 com.google.common.io.CharStreams$NullWriter
 kotlin.comparisons.ComparisonsKt__ComparisonsKt$compareBy$1
 kotlin.text.MatcherMatchResult$groupValues$1
@@ -8629,6 +8647,7 @@ com.google.android.gms.common.internal.safeparcel.SafeParcelWriter:
     public static void writeByteArraySparseArray(android.os.Parcel,int,android.util.SparseArray,boolean)
 androidx.core.content.ContextCompat:
     protected void <init>()
+    public static java.lang.String getAttributionTag(android.content.Context)
     public static boolean startActivities(android.content.Context,android.content.Intent[])
     public static boolean startActivities(android.content.Context,android.content.Intent[],android.os.Bundle)
     public static void startActivity(android.content.Context,android.content.Intent,android.os.Bundle)
@@ -8707,6 +8726,7 @@ com.google.common.util.concurrent.AbstractTransformFuture
 com.google.common.collect.FilteredKeyMultimap$AddRejectingList
 kotlin.jvm.internal.PropertyReference2Impl
 androidx.customview.widget.ExploreByTouchHelper$MyNodeProvider
+androidx.core.location.LocationCompat
 com.google.android.gms.common.internal.service.zaj
 kotlin.text.CharsetsKt
 com.google.android.gms.common.server.FavaDiagnosticsEntity
@@ -8973,6 +8993,7 @@ android.support.v4.os.ResultReceiver$MyRunnable
 com.google.common.collect.AbstractMapBasedMultiset$Itr
 com.google.common.collect.Platform
 com.google.common.util.concurrent.AggregateFutureState$SynchronizedAtomicHelper
+androidx.core.telephony.TelephonyManagerCompat$Api30Impl
 kotlin.collections.CollectionsKt___CollectionsJvmKt:
     public static final java.util.List filterIsInstance(java.lang.Iterable,java.lang.Class)
     public static final java.util.Collection filterIsInstanceTo(java.lang.Iterable,java.util.Collection,java.lang.Class)
@@ -10440,6 +10461,7 @@ kotlin.text.StringsKt__StringsKt:
     public static final java.util.List lines(java.lang.CharSequence)
     public static final synthetic kotlin.Pair access$findAnyOf(java.lang.CharSequence,java.util.Collection,int,boolean,boolean)
     public void <init>()
+androidx.core.telephony.TelephonyManagerCompat
 com.google.common.reflect.ClassPath$ClassInfo
 com.google.common.collect.FluentIterable$3$1
 com.google.android.gms.location.zzd

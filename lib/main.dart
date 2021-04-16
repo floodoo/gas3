@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
           return MaterialApp(
             theme: notifier.darkTheme ? dark : light,
             home: SplashScreen(),
+            debugShowCheckedModeBanner: false,
           );
         },
       ),
