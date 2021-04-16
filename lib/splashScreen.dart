@@ -1,3 +1,4 @@
+import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:gas3/homePage/homepage.dart';
 
@@ -21,15 +22,20 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.black,
       body: Center(
           child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Image.asset(
-            "assets/images/dont-drive-and-text.jpg",
+            "assets/images/speedIcon.png",
             fit: BoxFit.contain,
           ),
+          AutoSizeText(
+            "Drive Save!",
+            style: TextStyle(fontSize: 120, color: Colors.white),
+            maxLines: 1,
+          )
         ],
       )),
     );
