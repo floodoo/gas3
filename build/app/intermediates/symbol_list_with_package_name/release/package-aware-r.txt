@@ -1,4 +1,4 @@
-com.example.gas3
+schmitz.florian.gas3
 attr alpha
 attr buttonSize
 attr circleCrop

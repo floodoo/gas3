@@ -13,7 +13,7 @@ MERGED from [:audioplayers] /Users/Flo/Documents/development/flutter_projects/ga
 MERGED from [:flutter_plugin_android_lifecycle] /Users/Flo/Documents/development/flutter_projects/gas3/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:geolocator] /Users/Flo/Documents/development/flutter_projects/gas3/build/geolocator/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:path_provider] /Users/Flo/Documents/development/flutter_projects/gas3/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.core:core-ktx:1.6.0-alpha01] /Users/Flo/.gradle/caches/transforms-2/files-2.1/03d21288aca0b0672f723ab0692ddabf/jetified-core-ktx-1.6.0-alpha01/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.core:core-ktx:1.6.0-alpha02] /Users/Flo/.gradle/caches/transforms-2/files-2.1/0307108080c857da4b9a7373d05ad363/jetified-core-ktx-1.6.0-alpha02/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/564113b25ec0d8539bf531d03bc28606/jetified-play-services-location-17.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/acf1048a45935c18697cc73673005ec4/jetified-play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/fd0a2e6d7d8bdeed229fcda1762a4b9a/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
@@ -24,7 +24,7 @@ MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Flo/.gradle/caches/trans
 MERGED from [androidx.loader:loader:1.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/8680041a9cd7de3f8fa85d2cb16c9e87/loader-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/95738090907b1b337dae3c00f86b5243/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/08983bae53e7cbcfa9757cc04adee163/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.6.0-alpha01] /Users/Flo/.gradle/caches/transforms-2/files-2.1/40a76103e3c2934687f0f38d9e06d162/core-1.6.0-alpha01/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.core:core:1.6.0-alpha02] /Users/Flo/.gradle/caches/transforms-2/files-2.1/c3ca46944ea87eefc36c867b55049b8b/core-1.6.0-alpha02/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/ad32eeca3590d02d0f5a4362716c2f14/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/dc4e3ce8739bc9c8d7ad7905c13e39c0/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/ede97ede6447e7278d7c9e784ab6401a/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
@@ -36,7 +36,7 @@ INJECTED from /Users/Flo/Documents/development/flutter_projects/gas3/android/app
 INJECTED from /Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 	package
-		ADDED from /Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:2:5-31
+		ADDED from /Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:2:5-35
 		INJECTED from /Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/debug/AndroidManifest.xml
 	android:versionName
@@ -71,19 +71,19 @@ MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/Flo/.grad
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/235410326a1457246e775830b062464d/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/9757ef8dc224f868d1bd1249dcb5da7e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/9757ef8dc224f868d1bd1249dcb5da7e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.6.0-alpha01] /Users/Flo/.gradle/caches/transforms-2/files-2.1/40a76103e3c2934687f0f38d9e06d162/core-1.6.0-alpha01/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.6.0-alpha01] /Users/Flo/.gradle/caches/transforms-2/files-2.1/40a76103e3c2934687f0f38d9e06d162/core-1.6.0-alpha01/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0-alpha02] /Users/Flo/.gradle/caches/transforms-2/files-2.1/c3ca46944ea87eefc36c867b55049b8b/core-1.6.0-alpha02/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0-alpha02] /Users/Flo/.gradle/caches/transforms-2/files-2.1/c3ca46944ea87eefc36c867b55049b8b/core-1.6.0-alpha02/AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/Flo/.gradle/caches/transforms-2/files-2.1/7fa02adff51ff7b550de1e87e3803d56/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/Flo/.gradle/caches/transforms-2/files-2.1/7fa02adff51ff7b550de1e87e3803d56/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.6.0-alpha01] /Users/Flo/.gradle/caches/transforms-2/files-2.1/40a76103e3c2934687f0f38d9e06d162/core-1.6.0-alpha01/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.6.0-alpha02] /Users/Flo/.gradle/caches/transforms-2/files-2.1/c3ca46944ea87eefc36c867b55049b8b/core-1.6.0-alpha02/AndroidManifest.xml:24:18-86
 	android:label
 		ADDED from /Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:13:9-29
 	android:icon
 		ADDED from /Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:14:9-43
 	android:name
 		ADDED from /Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:12:9-57
-activity#com.example.gas3.MainActivity
+activity#schmitz.florian.gas3.MainActivity
 ADDED from /Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:15:9-43:20
 	android:launchMode
 		ADDED from /Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:17:13-43
@@ -145,8 +145,8 @@ MERGED from [:geolocator] /Users/Flo/Documents/development/flutter_projects/gas3
 MERGED from [:geolocator] /Users/Flo/Documents/development/flutter_projects/gas3/build/geolocator/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] /Users/Flo/Documents/development/flutter_projects/gas3/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] /Users/Flo/Documents/development/flutter_projects/gas3/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.6.0-alpha01] /Users/Flo/.gradle/caches/transforms-2/files-2.1/03d21288aca0b0672f723ab0692ddabf/jetified-core-ktx-1.6.0-alpha01/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.core:core-ktx:1.6.0-alpha01] /Users/Flo/.gradle/caches/transforms-2/files-2.1/03d21288aca0b0672f723ab0692ddabf/jetified-core-ktx-1.6.0-alpha01/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0-alpha02] /Users/Flo/.gradle/caches/transforms-2/files-2.1/0307108080c857da4b9a7373d05ad363/jetified-core-ktx-1.6.0-alpha02/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0-alpha02] /Users/Flo/.gradle/caches/transforms-2/files-2.1/0307108080c857da4b9a7373d05ad363/jetified-core-ktx-1.6.0-alpha02/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/564113b25ec0d8539bf531d03bc28606/jetified-play-services-location-17.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/564113b25ec0d8539bf531d03bc28606/jetified-play-services-location-17.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/acf1048a45935c18697cc73673005ec4/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
@@ -167,8 +167,8 @@ MERGED from [androidx.activity:activity:1.0.0] /Users/Flo/.gradle/caches/transfo
 MERGED from [androidx.activity:activity:1.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/95738090907b1b337dae3c00f86b5243/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/08983bae53e7cbcfa9757cc04adee163/customview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/08983bae53e7cbcfa9757cc04adee163/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.6.0-alpha01] /Users/Flo/.gradle/caches/transforms-2/files-2.1/40a76103e3c2934687f0f38d9e06d162/core-1.6.0-alpha01/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.6.0-alpha01] /Users/Flo/.gradle/caches/transforms-2/files-2.1/40a76103e3c2934687f0f38d9e06d162/core-1.6.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0-alpha02] /Users/Flo/.gradle/caches/transforms-2/files-2.1/c3ca46944ea87eefc36c867b55049b8b/core-1.6.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0-alpha02] /Users/Flo/.gradle/caches/transforms-2/files-2.1/c3ca46944ea87eefc36c867b55049b8b/core-1.6.0-alpha02/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/ad32eeca3590d02d0f5a4362716c2f14/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/ad32eeca3590d02d0f5a4362716c2f14/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/Flo/.gradle/caches/transforms-2/files-2.1/dc4e3ce8739bc9c8d7ad7905c13e39c0/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41

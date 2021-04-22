@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.example.gas3"
+3    package="schmitz.florian.gas3"
 4    android:versionCode="1"
 5    android:versionName="1.0.0" >
 6
@@ -50,7 +50,7 @@
 35        android:name="io.flutter.app.FlutterApplication"
 35-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:12:9-57
 36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-36-->[androidx.core:core:1.6.0-alpha01] /Users/Flo/.gradle/caches/transforms-2/files-2.1/40a76103e3c2934687f0f38d9e06d162/core-1.6.0-alpha01/AndroidManifest.xml:24:18-86
+36-->[androidx.core:core:1.6.0-alpha02] /Users/Flo/.gradle/caches/transforms-2/files-2.1/c3ca46944ea87eefc36c867b55049b8b/core-1.6.0-alpha02/AndroidManifest.xml:24:18-86
 37        android:debuggable="true"
 38        android:icon="@mipmap/ic_launcher"
 38-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:14:9-43
@@ -58,7 +58,7 @@
 39-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:13:9-29
 40        <activity
 40-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:15:9-43:20
-41            android:name="com.example.gas3.MainActivity"
+41            android:name="schmitz.florian.gas3.MainActivity"
 41-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:16:13-41
 42            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
 42-->/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/AndroidManifest.xml:19:13-163

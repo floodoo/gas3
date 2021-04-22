@@ -123,10 +123,10 @@
 # End of content from /Users/Flo/Documents/development/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro
 # The proguard configuration file for the following section is /Users/Flo/Documents/development/flutter_projects/gas3/build/app/intermediates/aapt_proguard_file/release/aapt_rules.txt
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
--keep class com.example.gas3.MainActivity { <init>(); }
 -keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
 -keep class io.flutter.app.FlutterApplication { <init>(); }
 -keep class io.flutter.plugins.urllauncher.WebViewActivity { <init>(); }
+-keep class schmitz.florian.gas3.MainActivity { <init>(); }
 
 # End of content from /Users/Flo/Documents/development/flutter_projects/gas3/build/app/intermediates/aapt_proguard_file/release/aapt_rules.txt
 # The proguard configuration file for the following section is /Users/Flo/Documents/development/flutter_projects/gas3/build/flutter_plugin_android_lifecycle/intermediates/consumer_proguard_dir/release/lib0/proguard.txt

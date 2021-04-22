@@ -1,8 +1,8 @@
-com/mr/flutter/plugin/filepicker/BuildConfig.java
- com.mr.flutter.plugin.filepicker.BuildConfig
 com/mr/flutter/plugin/filepicker/FileInfo.java
  com.mr.flutter.plugin.filepicker.FileInfo
  com.mr.flutter.plugin.filepicker.FileInfo$Builder
+com/mr/flutter/plugin/filepicker/BuildConfig.java
+ com.mr.flutter.plugin.filepicker.BuildConfig
 com/mr/flutter/plugin/filepicker/FilePickerPlugin.java
  com.mr.flutter.plugin.filepicker.FilePickerPlugin
  com.mr.flutter.plugin.filepicker.FilePickerPlugin$1

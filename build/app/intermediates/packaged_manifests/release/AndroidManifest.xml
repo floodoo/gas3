@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.gas3"
-    android:versionCode="1"
+    package="schmitz.florian.gas3"
+    android:versionCode="2"
     android:versionName="1.0.0" >
 
     <uses-sdk
@@ -32,7 +32,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="gas3" >
         <activity
-            android:name="com.example.gas3.MainActivity"
+            android:name="schmitz.florian.gas3.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:hardwareAccelerated="true"
             android:launchMode="singleTop"

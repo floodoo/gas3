@@ -363,6 +363,7 @@ com.google.common.collect.MapMakerInternalMap$WeakKeyDummyValueEntry
 com.google.common.math.LongMath$MillerRabinTester$1
 androidx.core.location.LocationManagerCompat$GnssStatusTransport
 com.google.common.math.DoubleMath$1
+schmitz.florian.gas3.R$drawable
 androidx.core.accessibilityservice.AccessibilityServiceInfoCompat
 com.google.android.gms.common.api.internal.zaba
 com.google.android.gms.common.server.converter.zab
@@ -410,6 +411,7 @@ kotlin.io.FileTreeWalk$FileTreeWalkIterator$SingleFileState
 com.google.android.gms.common.api.internal.zaao
 androidx.core.provider.SelfDestructiveThread$ReplyCallback
 kotlin.UShortArrayKt
+schmitz.florian.gas3.R
 com.google.common.collect.CompactHashMap$KeySetView
 androidx.customview.R$color
 com.google.common.collect.FilteredEntrySetMultimap
@@ -1083,6 +1085,7 @@ io.flutter.plugins.urllauncher.R$layout
 androidx.fragment.R$dimen
 io.flutter.plugins.pathprovider.R$color
 androidx.annotation.VisibleForTesting
+schmitz.florian.gas3.R$id
 com.google.android.gms.common.server.response.zai
 com.google.common.io.CharSource$EmptyCharSource
 androidx.core.ktx.R$layout
@@ -1420,7 +1423,6 @@ com.google.common.collect.Lists$RandomAccessPartition
 androidx.core.provider.SelfDestructiveThread
 io.flutter.embedding.engine.deferredcomponents.PlayStoreDeferredComponentManager
 com.google.common.collect.MultimapBuilder$TreeSetSupplier
-com.example.gas3.R
 io.flutter.embedding.engine.plugins.service.ServicePluginBinding:
     public abstract android.app.Service getService()
     public abstract java.lang.Object getLifecycle()
@@ -1670,7 +1672,6 @@ kotlin.text.StringsKt___StringsJvmKt:
     public void <init>()
 com.google.android.gms.common.internal.service.zal
 com.google.common.util.concurrent.ServiceManager$NoOpService
-com.example.gas3.R$string
 com.google.common.collect.ForwardingNavigableMap$StandardDescendingMap$1
 kotlin.internal.PlatformImplementationsKt:
     private static final synthetic java.lang.Object castToBaseType(java.lang.Object)
@@ -1904,7 +1905,6 @@ androidx.core.view.inputmethod.InputContentInfoCompat$InputContentInfoCompatImpl
 androidx.core.view.accessibility.AccessibilityNodeProviderCompat
 androidx.annotation.AnimatorRes
 com.google.common.collect.MultimapBuilder$1
-com.example.gas3.R$styleable
 androidx.versionedparcelable.ParcelField
 com.google.android.gms.common.api.internal.zaby
 com.google.common.graph.Traverser$GraphTraverser
@@ -4539,6 +4539,7 @@ com.google.android.gms.tasks.zzm:
     public final void cancel()
 com.google.common.collect.Maps$DescendingMap$1EntrySetImpl
 kotlin.reflect.KParameter
+schmitz.florian.gas3.R$dimen
 com.google.common.util.concurrent.MoreExecutors$Application$1
 io.flutter.plugin.common.ActivityLifecycleListener
 com.google.common.collect.AbstractSetMultimap
@@ -4595,6 +4596,7 @@ androidx.viewpager.widget.PagerTitleStrip$PageListener
 com.google.android.gms.common.api.internal.zaau
 kotlin.coroutines.AbstractCoroutineContextKey
 kotlin.comparisons.ComparisonsKt__ComparisonsKt$then$1
+schmitz.florian.gas3.BuildConfig
 io.flutter.view.AccessibilityBridge:
     public int getHoveredObjectId()
     public void reset()
@@ -4922,7 +4924,6 @@ com.google.j2objc.annotations.LoopTranslation
 com.google.common.primitives.ImmutableDoubleArray$AsList
 com.google.common.primitives.ImmutableLongArray
 androidx.annotation.StyleableRes
-com.example.gas3.R$attr
 com.google.common.base.Throwables$1
 kotlin.UShortKt
 kotlin.collections.CollectionsKt__IterablesKt:
@@ -5080,6 +5081,7 @@ com.google.android.gms.common.server.response.FastParser$zaa
 com.google.common.util.concurrent.TimeoutFuture$TimeoutFutureException
 androidx.core.content.res.ConfigurationHelper
 kotlin.internal.OnlyInputTypes
+schmitz.florian.gas3.R$styleable
 com.google.common.cache.CacheBuilderSpec$MaximumSizeParser
 com.google.errorprone.annotations.Immutable
 com.google.android.gms.dynamite.DynamiteModule$VersionPolicy$zzb
@@ -5393,7 +5395,6 @@ kotlin.collections.MapAccessorsKt
 com.google.android.gms.common.internal.constants.ListAppsActivityContract
 com.google.common.collect.MapMakerInternalMap$Strength$1
 kotlin.collections.ArraysKt___ArraysKt$asSequence$$inlined$Sequence$3
-com.example.gas3.R$id
 com.google.android.gms.location.ActivityRecognitionResult
 javax.annotation.MatchesPattern$Checker
 androidx.core.app.AppOpsManagerCompat
@@ -5612,7 +5613,6 @@ com.google.common.util.concurrent.Service
 com.google.common.collect.RegularImmutableAsList
 androidx.core.transition.TransitionKt$addListener$4
 androidx.core.view.WindowInsetsAnimationCompat$Impl21$Impl21OnApplyWindowInsetsListener
-com.example.gas3.R$mipmap
 androidx.loader.app.LoaderManagerImpl:
     private androidx.loader.content.Loader createAndInstallLoader(int,android.os.Bundle,androidx.loader.app.LoaderManager$LoaderCallbacks,androidx.loader.content.Loader)
     public androidx.loader.content.Loader initLoader(int,android.os.Bundle,androidx.loader.app.LoaderManager$LoaderCallbacks)
@@ -5985,7 +5985,6 @@ com.google.common.collect.Iterators$7
 com.google.common.graph.EndpointPairIterator$Directed
 kotlin.jvm.functions.Function21:
     public abstract java.lang.Object invoke(java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object)
-com.example.gas3.R$dimen
 com.google.common.collect.GeneralRange
 androidx.viewpager.widget.ViewPager$ItemInfo
 com.google.common.base.FinalizableReferenceQueue$DecoupledLoader
@@ -6293,7 +6292,6 @@ io.flutter.plugins.urllauncher.R$styleable
 kotlin.jvm.functions.Function16:
     public abstract java.lang.Object invoke(java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object)
 com.google.common.collect.DiscreteDomain$1
-com.example.gas3.R$color
 androidx.core.widget.TextViewOnReceiveContentListener$ApiImpl
 kotlin.Lazy
 androidx.core.app.NotificationChannelCompat$Builder
@@ -6494,6 +6492,7 @@ androidx.core.text.BidiFormatter$Builder
 kotlin.jvm.functions.FunctionN
 com.google.android.gms.common.api.Api$ApiOptions$NotRequiredOptions
 com.google.common.reflect.package-info
+schmitz.florian.gas3.R$mipmap
 io.flutter.embedding.engine.mutatorsstack.FlutterMutatorView:
     public void <init>(android.content.Context)
 com.google.common.collect.ForwardingMultiset
@@ -6561,7 +6560,6 @@ io.flutter.plugins.flutter_plugin_android_lifecycle.R$dimen
 com.google.common.collect.Sets$4
 kotlin.io.FilesKt__FileReadWriteKt
 com.google.android.gms.common.internal.zzm
-com.example.gas3.R$layout
 androidx.annotation.RequiresPermission
 com.google.common.math.Quantiles$Scale
 androidx.fragment.app.Fragment:
@@ -6849,6 +6847,7 @@ com.google.common.reflect.TypeToken$TypeFilter
 androidx.core.graphics.drawable.IconKt
 com.google.android.gms.common.api.internal.zabe
 androidx.core.view.accessibility.AccessibilityViewCommand$SetTextArguments
+schmitz.florian.gas3.R$color
 androidx.fragment.app.FragmentTransaction$Op:
     void <init>(int,androidx.fragment.app.Fragment,androidx.lifecycle.Lifecycle$State)
 androidx.core.view.inputmethod.EditorInfoCompat$Impl30
@@ -7009,7 +7008,6 @@ com.google.common.util.concurrent.Futures$FutureCombiner$1
 kotlin.jvm.internal.MagicApiIntrinsics
 com.google.common.collect.MapMakerInternalMap$AbstractSerializationProxy
 com.google.common.collect.RegularImmutableMultiset
-com.example.gas3.R$style
 kotlin.collections.AbstractList$SubList
 io.flutter.embedding.engine.systemchannels.SettingsChannel:
     private static final java.lang.String TAG
@@ -7136,6 +7134,7 @@ kotlin.ranges.ULongProgressionIterator
 androidx.core.R$integer
 com.google.android.gms.base.R$id
 kotlin.jvm.JvmSuppressWildcards
+schmitz.florian.gas3.R$style
 kotlin.collections.ArraysKt___ArraysKt$asIterable$$inlined$Iterable$6
 com.google.common.collect.ImmutableEnumMap$EnumSerializedForm
 com.google.common.collect.Synchronized$SynchronizedSortedSetMultimap
@@ -7200,6 +7199,7 @@ com.google.android.gms.common.internal.AccountAccessor:
     public final android.accounts.Account getAccount()
     public boolean equals(java.lang.Object)
 com.google.common.collect.StandardTable$Column
+schmitz.florian.gas3.R$attr
 androidx.core.util.LongSparseArrayKt$keyIterator$1
 androidx.core.location.LocationManagerCompat$GpsStatusTransport
 androidx.core.provider.FontProvider
@@ -7207,7 +7207,6 @@ io.flutter.embedding.engine.plugins.contentprovider.ContentProviderControlSurfac
 com.google.android.gms.common.UserRecoverableException
 com.google.common.hash.BloomFilterStrategies$1
 kotlin.io.TerminateException
-com.example.gas3.BuildConfig
 kotlin.comparisons.UComparisonsKt___UComparisonsKt
 com.google.common.graph.EndpointPair$Unordered
 com.google.android.gms.common.api.PendingResults$zac
@@ -8038,7 +8037,6 @@ kotlin.io.FileTreeWalk
 androidx.core.provider.FontsContractCompat$Columns
 kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsKt
 com.google.common.util.concurrent.Striped$WeakSafeCondition
-com.example.gas3.R$drawable
 androidx.loader.content.Loader:
     public void <init>(android.content.Context)
     public void deliverResult(java.lang.Object)
@@ -8507,6 +8505,7 @@ com.google.common.graph.Traverser$GraphTraverser$DepthFirstIterator
 kotlin.sequences.SequencesKt___SequencesKt$filterIndexed$1
 com.google.common.util.concurrent.SmoothRateLimiter$1
 com.google.android.gms.location.zzal
+schmitz.florian.gas3.R$string
 kotlin.reflect.TypeImpl
 com.google.common.util.concurrent.Callables$2
 com.google.common.collect.Interner
@@ -9784,6 +9783,7 @@ com.google.android.gms.common.api.internal.zzc
 com.google.common.reflect.TypeToken$TypeFilter$2
 kotlin.collections.AbstractList$ListIteratorImpl
 com.google.common.primitives.Longs$AsciiDigits
+schmitz.florian.gas3.R$layout
 androidx.core.graphics.TypefaceCompatApi21Impl
 com.google.common.collect.AbstractSortedMultiset$1DescendingMultisetImpl
 kotlin.text.MatchResult$DefaultImpls
@@ -10044,6 +10044,7 @@ com.google.common.collect.LinkedHashMultimap$ValueSet$1
 android.support.v4.app.INotificationSideChannel$Stub$Proxy
 com.google.common.collect.ImmutableMultimap$Builder
 com.google.common.collect.AbstractTable
+schmitz.florian.gas3.R$integer
 androidx.lifecycle.MediatorLiveData
 com.google.android.gms.common.internal.service.zai
 com.google.common.util.concurrent.AbstractService$4
@@ -10223,7 +10224,6 @@ io.flutter.embedding.android.FlutterView$RenderMode
 kotlin.collections.ReversedList
 com.google.common.collect.Lists$ReverseList$1
 androidx.core.animation.AnimatorKt$doOnStart$$inlined$addListener$1
-com.example.gas3.R$integer
 androidx.core.view.WindowInsetsCompat$BuilderImpl
 androidx.core.view.ViewPropertyAnimatorListener
 com.google.android.gms.internal.location.zzai
@@ -10993,5 +10993,5 @@ com.google.android.gms.common.stats.ConnectionTracker:
     private final java.util.List zzfe
     private final java.util.List zzff
     private static boolean zzfb
-io.flutter.plugin.platform.PlatformView$-CC
 androidx.lifecycle.DefaultLifecycleObserver$-CC
+io.flutter.plugin.platform.PlatformView$-CC

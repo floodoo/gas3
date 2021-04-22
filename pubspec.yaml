@@ -1,6 +1,6 @@
 name: gas3
-description: A new Flutter project.
-version: 1.0.0+1
+description: A Flutter project.
+version: 1.0.0+2
 
 environment:
   sdk: ">=2.7.0 <3.0.0"

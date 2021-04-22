@@ -1,4 +1,4 @@
-package com.example.gas3
+package schmitz.florian.gas3
 
 import io.flutter.embedding.android.FlutterActivity
 
