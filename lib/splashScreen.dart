@@ -32,7 +32,7 @@ class _SplashScreenState extends State<SplashScreen> {
             fit: BoxFit.contain,
           ),
           AutoSizeText(
-            "Drive Save!",
+            "Drive carefully!",
             style: TextStyle(fontSize: 120, color: Colors.white),
             maxLines: 1,
           )

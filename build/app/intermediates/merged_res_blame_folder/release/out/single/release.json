@@ -4,12 +4,12 @@
         "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/c3ca46944ea87eefc36c867b55049b8b/core-1.6.0-alpha02/res/layout-v21/notification_action_tombstone.xml"
     },
     {
-        "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/app/intermediates/res/merged/release/drawable-mdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/acf1048a45935c18697cc73673005ec4/jetified-play-services-base-17.0.0/res/drawable-mdpi-v4/googleg_disabled_color_18.png"
-    },
-    {
         "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/app/intermediates/res/merged/release/mipmap-mdpi_ic_launcher.png.flat",
         "source": "/Users/Flo/Documents/development/flutter_projects/gas3/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/app/intermediates/res/merged/release/drawable-mdpi-v4_googleg_disabled_color_18.png.flat",
+        "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/acf1048a45935c18697cc73673005ec4/jetified-play-services-base-17.0.0/res/drawable-mdpi-v4/googleg_disabled_color_18.png"
     },
     {
         "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/app/intermediates/res/merged/release/drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
@@ -28,12 +28,12 @@
         "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/acf1048a45935c18697cc73673005ec4/jetified-play-services-base-17.0.0/res/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
-        "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/app/intermediates/res/merged/release/color_common_google_signin_btn_text_light.xml.flat",
-        "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/acf1048a45935c18697cc73673005ec4/jetified-play-services-base-17.0.0/res/color/common_google_signin_btn_text_light.xml"
-    },
-    {
         "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/app/intermediates/res/merged/release/drawable_common_google_signin_btn_text_light_normal.xml.flat",
         "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/acf1048a45935c18697cc73673005ec4/jetified-play-services-base-17.0.0/res/drawable/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/app/intermediates/res/merged/release/color_common_google_signin_btn_text_light.xml.flat",
+        "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/acf1048a45935c18697cc73673005ec4/jetified-play-services-base-17.0.0/res/color/common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/app/intermediates/res/merged/release/drawable_common_google_signin_btn_icon_light_normal.xml.flat",
@@ -48,12 +48,12 @@
         "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/c3ca46944ea87eefc36c867b55049b8b/core-1.6.0-alpha02/res/layout-v21/notification_template_custom_big.xml"
     },
     {
-        "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/app/intermediates/res/merged/release/drawable-mdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/acf1048a45935c18697cc73673005ec4/jetified-play-services-base-17.0.0/res/drawable-mdpi-v4/googleg_standard_color_18.png"
-    },
-    {
         "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/app/intermediates/res/merged/release/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/c3ca46944ea87eefc36c867b55049b8b/core-1.6.0-alpha02/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/app/intermediates/res/merged/release/drawable-mdpi-v4_googleg_standard_color_18.png.flat",
+        "source": "/Users/Flo/.gradle/caches/transforms-2/files-2.1/acf1048a45935c18697cc73673005ec4/jetified-play-services-base-17.0.0/res/drawable-mdpi-v4/googleg_standard_color_18.png"
     },
     {
         "merged": "/Users/Flo/Documents/development/flutter_projects/gas3/build/app/intermediates/res/merged/release/drawable-hdpi-v4_common_full_open_on_phone.png.flat",
