@@ -8,7 +8,7 @@ class AreYouSureDialog extends StatelessWidget {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     prefs.setDouble("highscore", highscore);
   }
-
+// test commit
   @override
   Widget build(BuildContext context) {
     return AlertDialog(
