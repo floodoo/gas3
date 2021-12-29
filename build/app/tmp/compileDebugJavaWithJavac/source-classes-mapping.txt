@@ -1,4 +1,0 @@
-io/flutter/plugins/GeneratedPluginRegistrant.java
- io.flutter.plugins.GeneratedPluginRegistrant
-schmitz/florian/gas3/BuildConfig.java
- schmitz.florian.gas3.BuildConfig

@@ -1,4 +1,0 @@
-flutter/plugins/screen/screen/ScreenPlugin.java
- flutter.plugins.screen.screen.ScreenPlugin
-flutter/plugins/screen/screen/BuildConfig.java
- flutter.plugins.screen.screen.BuildConfig

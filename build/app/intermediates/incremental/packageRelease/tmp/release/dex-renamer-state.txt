@@ -1,4 +1,0 @@
-#Mon Apr 26 20:12:54 CEST 2021
-base.0=/Users/Flo/Documents/development/flutter_projects/gas3/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex

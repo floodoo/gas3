@@ -1,5 +1,0 @@
--keep class androidx.core.app.CoreComponentFactory { <init>(); }
--keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
--keep class io.flutter.app.FlutterApplication { <init>(); }
--keep class io.flutter.plugins.urllauncher.WebViewActivity { <init>(); }
--keep class schmitz.florian.gas3.MainActivity { <init>(); }
